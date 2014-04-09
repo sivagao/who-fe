@@ -1,0 +1,68 @@
+<div class="who-home" ng-cloak>
+    <div class="who-idx-teams uk-clearfix">
+        <h2>Product Areas(PA)</h2>
+        <ul class="uk-list uk-clearfix">
+            <li ng-repeat="item in areaList">
+                <a ng-href="/area/{{item.name}}">
+                    <div class="who-placehold-item front">
+                        <b class="who-placehold-item-title">{{item.name}}</b>
+                        <b class="who-placehold-item-subtitle">XX成员</b>
+                    </div>
+                    <div class="who-placehold-item back" ng-hide="true">
+                        <p>{{item.objective}}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="who-idx-teams uk-clearfix">
+        <h2>Product</h2>
+        <ul class="uk-list uk-clearfix">
+            <li ng-repeat="item in productList">
+                <a ng-href="/product/{{item.name}}">
+                    <div class="who-placehold-item front">
+                        <b class="who-placehold-item-title">{{item.name}}</b>
+                    </div>
+                    <div class="who-placehold-item back" ng-hide="true">
+                        <p>{{item.objective}}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="who-idx-projects uk-clearfix">
+        <h2>Function Team</h2>
+        <ul class="uk-list uk-clearfix">
+            <li ng-repeat="item in teamList">
+                <a ng-href="/team/{{item.key}}">
+                    <div class="who-placehold-item">
+                        <b class="who-placehold-item-title">{{item.name}}</b>
+                        <b class="who-placehold-item-subtitle">{{item.number}}成员</b>
+                    </div>
+                    <div class="who-placehold-item back" ng-hide="true">
+                        <p>{{item.description}}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="who-idx-wandous uk-clearfix">
+        <h2>豌豆展台</h2>
+        <ul class="uk-list uk-clearfix">
+            <li>
+                <a href="/wandou/2" style="position: relative">
+                    <div class="front">
+                        <img data-src="holder.js/90x90" alt="">
+                    </div>
+                    <div class="back" ng-hide="true">
+                        <p>负责论坛运营设计相关</p>
+                    </div>
+                    <span class="label">新豌豆</span>
+                </a>
+                <p class="uk-text-center">高海浪</p>
+            </li>
+        </ul>
+    </div>
+
+</div>

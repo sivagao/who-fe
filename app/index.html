@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <title>继续找豌豆</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <!-- build:css(.tmp) /styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="/components/es5-shim/es5-shim.js"></script>
+      <script src="/components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- Application content -->
+    <div ng-app="whoApp">
+        <nav class="uk-navbar who-navbar" ng-controller="navbarCtrl">
+            <a class="uk-navbar-brand who-navbar-content" href="/" alt="找豌豆"><img src="http://img.wdjimg.com/who/logo.png"></a>
+            <div class="uk-navbar-flip">
+                <div class="who-navbar-content home-navbar-search">
+                    <form class="uk-display-inline-block">
+                        <i class="uk-icon-search"></i>
+                        <input
+                            ng-model="navbarQuery"
+                            ng-focus="focusHandler()"
+                            id="search" type="text"
+                            placeholder="通过名字，项目，职位找豌豆...">
+                        <i class="uk-icon-spinner uk-icon-spin" ng-show="isShowSearchIcon"></i>
+                    </form>
+                </div>
+                <div class="who-navbar-content home-navbar-export">
+                    <button class="uk-button"><i class="uk-icon-download"></i>导出所有豌豆通讯录.csv</button>
+                </div>
+                <div class="who-navbar-content home-navbar-avatar">
+                    <img src="holder.js/35x35" alt="">
+                    <span>傅莹莹</span>
+                </div>
+            </div>
+        </nav>
+        <!-- <div ng-include="'views/menu/_MenuView.html'"></div> -->
+        <div ng-view></div>
+    </div>
+
+    <script src="/components/jquery/jquery.js"></script>
+    <script src="/components/angular/angular.js"></script>
+
+    <!-- build:js /scripts/plugins.js -->
+    <script src="/components/lodash/lodash.js"></script>
+    <script src="/components/holder.js"></script>
+    <script src="/components/isotope.js"></script>
+
+    <script src="/components/sass-bootstrap/js/collapse.js"></script>
+    <script src="/components/sass-bootstrap/js/transition.js"></script>
+    <script src="/components/sass-bootstrap/js/dropdown.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/modules.js -->
+    <script src="/components/angular-resource/angular-resource.js"></script>
+    <script src="/components/angular-cookies/angular-cookies.js"></script>
+    <script src="/components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="/components/angular-route/angular-route.js"></script>
+    <script src="/components/angular-animate/angular-animate.js"></script>
+    <script src="/components/angular-touch/angular-touch.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) /scripts//scripts.js -->
+    <script src="/scripts/app.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

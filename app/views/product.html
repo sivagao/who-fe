@@ -1,0 +1,32 @@
+<div class="who-p-detail">
+    <div class="uk-grid detail-ctx">
+        <div class="uk-width-1-3 uk-text-center">
+            <img style="float: right; border-radius: 45px;" data-src="holder.js/190x190/text:DESIGN" alt="">
+        </div>
+        <div class="uk-width-2-3" ng-show="!isShowEditForm">
+            <h1 class="uk-article-title">{{productInfo.name}}</h1>
+            <p class="uk-article-lead uk-article-meta">
+                <i class="uk-icon-quote-left"></i>&nbsp;&nbsp;{{productInfo.objective}}.
+            </p>
+            <h3 class="who-subtitle">
+                相关信息
+            </h3>
+            <dl class="uk-description-list uk-description-list-horizontal">
+                <dt>PM</dt>
+                <dd>{{productInfo.pm}}</dd>
+                <dt>TL</dt>
+                <dd>{{productInfo.tl}}</dd>
+                <dt>mail</dt>
+                <dd>{{productInfo.mail}}</dd>
+                <dt>Project Area</dt>
+                <dd>{{productInfo.PA}}</dd>
+                <dt>OKR</dt>
+                <dd>{{productInfo.okr}}</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="detail-btn-ctx">
+        <a href="/" class="uk-button who-btn ng-scope"><i class="uk-icon-long-arrow-left"></i>&nbsp;&nbsp;回到首页</a>
+    </div>
+</div>
+
