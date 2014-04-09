@@ -1,0 +1,345 @@
+// Default Twitter Bootstrap 3.0.2
+// @import "sass-bootstrap/lib/bootstrap";
+@import "uikit/css/uikit";
+
+// Font Awesome
+// $fa-font-path: "/components/font-awesome/fonts/";
+// @import "font-awesome/scss/font-awesome";
+
+.uk-description-list-horizontal > dd {
+    margin-left: 0;
+    float: left;
+}
+.uk-description-list-horizontal > dt {
+    width: auto;
+    font-weight: normal;
+    color: #999;
+    margin-right: 10px;
+}
+.uk-description-list-horizontal {
+line-height: 30px;
+}
+.uk-button{
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// Custom components
+.who-subtitle {
+padding-left: 6px;
+border-left: 3px solid #3baa24;
+font-size: 20px;
+line-height: 16px;
+}
+.who-navbar{
+    height: 63px;
+    font-size: 14px;
+    &.fixed{
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        top: 0;
+        .home-navbar-export, .home-navbar-avatar{
+            display: none;
+        }
+        .home-hotquery{
+            display: block;
+            display: block;
+            float: left;
+            padding: 10px;
+        }
+    }
+    .who-navbar-content{
+        display: inline-block;
+        padding: 21px 30px;
+        border-left: 1px solid #d9d9d9;
+        i{
+            margin-right: 5px;
+        }
+    }
+    .uk-navbar-brand{
+        border:none;
+    }
+    .home-hotquery{
+        display: none;
+    }
+    .home-navbar-export{
+        .uk-button{
+            height: 21px;
+            min-height: 21px;
+            line-height: 21px;
+        }
+    }
+    .home-navbar-avatar{
+        img{
+            position: absolute;
+            margin-top: -7px;
+        }
+        span{
+            padding-left: 45px;
+        }
+    }
+    .home-navbar-search{
+        input{
+            height: 21px;
+            padding: 0;
+            border: none;
+            background: none;
+            line-height: 21px;
+            width: 200px;
+        }
+    }
+}
+.uk-navbar-content, .uk-navbar-brand, .uk-navbar-toggle{
+    height: 21px;
+}
+.who-btn{
+    background: #FFF;
+    color: #3BAA24;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 35px;
+    font-size: 14px;
+}
+.who-avatar-list{
+    list-style: none;
+    margin-left: -30px;
+    margin-right: -30px;
+    li{
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+// Views
+body{
+    background: #f6f6f6;
+    font: 12px/18px "Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+}
+::selection {
+    background: #ffb7b7; /* Safari */
+    }
+::-moz-selection {
+    background: #ffb7b7; /* Firefox */
+}
+.who-p-detail{
+    margin-top: 42px;
+    .detail-ctx{
+        width: 770px;
+        background: #fff;
+        padding: 63px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .detail-btn-ctx{
+        background: inherit;
+        padding: 0;
+        margin: 30px auto;
+        width: 770px;
+        box-sizing: border-box;
+    }
+    .uk-form-horizontal .uk-form-label {
+    width: 90px;
+    }
+    .uk-form-horizontal .uk-form-controls {
+        margin-left: 90px;
+        input, textarea{
+            width: 100%;
+            border-radius: 5px;
+        }
+        .short-input{
+            width: 90px;
+            margin-right: 10px;
+            display: inline-block!important;
+        }
+        .long-input{
+           width: 200px;
+           display: inline-block!important;
+        }
+
+    }
+    .who-wandou-update-btn{
+
+    }
+}
+
+.who-primary-btn{
+    color: #fff;
+    background: #3BAA24l
+}
+
+// Generic
+* {
+	outline: none !important;
+}
+
+// https://github.com/twbs/bootstrap/issues/10711
+// http://stackoverflow.com/questions/17988242/twitter-bootstrap-3-rc1-horizontal-scroll-issue
+@media (max-width: 768px) {
+	.row { margin-right: 0; margin-left: 0; }
+}
+.who-home{
+    margin: 40px auto;
+    max-width: 1116px;
+
+    .who-btn{
+        float: right;
+        background: none;
+    }
+}
+
+.who-idx-teams, .who-idx-projects,  .who-idx-wandous{
+    margin: 0 auto;
+    max-width: 1116px;
+    ul{
+        li:nth-child(8n) {
+            a .who-placehold-item {
+                background: #c38867;
+            }
+        }
+        li:nth-child(8n+1) {
+            a .who-placehold-item {
+                background: #ffc247;
+            }
+        }
+        li:nth-child(8n+2) {
+            a .who-placehold-item {
+                background: #3baa24;
+            }
+        }
+        li:nth-child(8n+3) {
+            a .who-placehold-item {
+                background: #4cc9b6;
+            }
+        }
+        li:nth-child(8n+4) {
+            a .who-placehold-item {
+                background: #4e9ce6;
+            }
+        }
+        li:nth-child(8n+5) {
+            a .who-placehold-item {
+                background: #ff7272;
+            }
+        }
+        li:nth-child(8n+6) {
+            a .who-placehold-item {
+                background: #ff8f4b;
+            }
+        }
+        li:nth-child(8n+7) {
+            a .who-placehold-item {
+                background: #9777d6;
+            }
+        }
+    }
+    ul li{
+        float: left;
+        margin: 10px 18px;
+
+        a{
+            .who-placehold-item {
+                width: 147px;
+                height: 147px;
+                border-radius: 45px;
+                background: #FFF;
+                text-align: center;
+                color: #fff;
+                .who-placehold-item-title {
+                    padding-top: 48px;
+                    display: block;
+                    line-height: 37px;
+                    height: 37px;
+                    font-size: 28px;
+                }
+                .who-placehold-item-subtitle {
+                padding-top: 28px;
+                padding-bottom: 25px;
+                display: block;
+                }
+            }
+            p{
+                line-height: 40px;
+                height: 40px;
+                margin: 0;
+                color: #999;
+            }
+        }
+    }
+}
+
+.who-idx-wandous{
+    ul li{
+        margin: 0 14px;
+    }
+}
+
+
+// isotope
+.iso-container li.match {
+    color: red;
+    font-weight: bold;
+}
+
+.iso-container li.miss  {
+    opacity: 0.3;
+}
+
+
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:    -moz-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
