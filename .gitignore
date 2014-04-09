@@ -1,0 +1,11 @@
+.DS_STORE
+.tmp
+.sass-cache
+
+node_modules
+app/components
+
+dist
+docs
+coverage
+analysis
