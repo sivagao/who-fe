@@ -1,0 +1,25 @@
+<ion-view title="{{productInfo.name}}" hide-back-button="hideBackButton" hide-nav-bar="hideNavBar" drag-back>
+    <ion-content>
+        <div class="scroll padding">
+            <h1 class="uk-article-title">{{productInfo.name}}</h1>
+            <p class="uk-article-lead uk-article-meta">
+                <i class="uk-icon-quote-left"></i>&nbsp;&nbsp;{{productInfo.objective}}.
+            </p>
+            <h3 class="who-subtitle">
+                相关信息
+            </h3>
+            <dl class="uk-description-list uk-description-list-horizontal">
+                <dt>PM</dt>
+                <dd>{{productInfo.pm}}</dd>
+                <dt>TL</dt>
+                <dd>{{productInfo.tl}}</dd>
+                <dt>mail</dt>
+                <dd>{{productInfo.mail}}</dd>
+                <dt>Project Area</dt>
+                <dd>{{productInfo.PA}}</dd>
+                <dt>OKR</dt>
+                <dd><a ng-href="{{productInfo.okr}}">2014</a></dd>
+            </dl>
+        </div>
+    </ion-content>
+</ion-view>

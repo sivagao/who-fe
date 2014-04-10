@@ -1,0 +1,23 @@
+<ion-view title="豌豆们" hide-back-button="hideBackButton" hide-nav-bar="hideNavBar">
+<ion-nav-buttons side="left">
+  <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+</ion-nav-buttons>
+    <ion-header-bar class="bar bar-subheader item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input id="searchKey" type="search" placeholder="Search" ng-model="searchKey" autocorrect="off" >
+            <button class="button button-clear" ng-click="clearSearch()">X</button>
+        </label>
+        <button class="button button-clear" ng-click="search()">Search</button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list animation="slide-in-left">
+            <ion-item ng-repeat="wandou in wandouList" type="item-text-wrap" href="#/wandou/{{wandou.nick}}">
+                <img class="avatar" src="pics/{{wandou.pic}}">
+                <h3>{{wandou.name}} / {{wandou.nick}}</h3>
+                <p>{{wandou.function}} / {{wandou.hometown}} / {{wandou.school}} / {{wandou.edate}}</p>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

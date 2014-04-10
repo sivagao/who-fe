@@ -1,0 +1,18 @@
+<ion-view title="入职时间轴" hide-back-button="hideBackButton" hide-nav-bar="hideNavBar" drag-back>
+    <ion-content>
+    <ul class="scroll padding">
+        <li ng-repeat="monthItem in monthList">
+            <div class="item item-divider">
+              {{monthItem.key}}
+            </div>
+            <ion-list>
+                <ion-item ng-repeat="wandou in monthItem.list" type="item-text-wrap" href="#/wandou/{{wandou.nick}}">
+                    <h3>{{wandou.name}}</h3>
+                    <p>{{wandou.function}}</p>
+                </ion-item>
+            </ion-list>
+        </li>
+        <ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
+    </ul>
+    </ion-content>
+</ion-view>

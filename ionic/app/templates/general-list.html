@@ -1,0 +1,19 @@
+<ion-view title="{{listInfo.type}} - {{listInfo.name}}" drag-back
+    hide-back-button="hideBackButton" hide-nav-bar="hideNavBar">
+    <ion-content>
+        <div ng-switch on="listInfo.type" class="scroll padding">
+            <div class="item">
+                <h2 class="uk-article-title">{{listInfo.name}}</h2>
+                <p ng-switch-when="hometown">wow,他们都是老乡！</p>
+                <p ng-switch-when="school">wow,他们都是校友！</p>
+            </div>
+            <ion-list>
+                <ion-item ng-repeat="wandou in listInfo.list" type="item-text-wrap" href="#/wandou/{{wandou.nick}}">
+                    <img class="avatar" src="pics/{{wandou.pic}}">
+                    <h3>{{wandou.name}} / {{wandou.nick}}</h3>
+                    <p>{{wandou.function}} / {{wandou.hometown}} / {{wandou.school}} / {{wandou.edate}}</p>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

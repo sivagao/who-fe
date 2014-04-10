@@ -1,0 +1,42 @@
+<ion-view title="{{areaInfo.name}}" hide-back-button="hideBackButton" hide-nav-bar="hideNavBar" drag-back>
+    <ion-content>
+        <div class="scroll padding">
+            <h1 class="uk-article-title">{{areaInfo.name}}</h1>
+            <p class="uk-article-lead uk-article-meta">
+                <i class="uk-icon-quote-left"></i>&nbsp;&nbsp;{{areaInfo.objective}}.
+            </p>
+            <h3 class="who-subtitle">
+                相关信息
+            </h3>
+            <dl class="uk-description-list uk-description-list-horizontal">
+                <dt>负责人</dt>
+                <dd>{{areaInfo.owner}}</dd>
+                <dt>邮箱</dt>
+                <dd>{{areaInfo.mail}}</dd>
+            </dl>
+            <br>
+            <h3 class="who-subtitle">
+                组内成员
+            </h3>
+            <div class="profile-users clearfix">
+                <div class="itemdiv memberdiv" ng-repeat="member in areaInfo.members">
+                    <div class="inline position-relative">
+                        <div class="user">
+                            <a ng-href="#/wandou/{{member.name}}">
+                                <img ng-src="pics/{{member.pic}}" alt="">
+                            </a>
+                        </div>
+                        <div class="body">
+                            <div class="name">
+                                <a ng-href="#/wandou/{{member.name}}">
+                                    <span class="user-status status-online"></span>
+                                    {{member.name}}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
