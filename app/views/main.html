@@ -6,7 +6,7 @@
                 <a ng-href="/area/{{item.name}}">
                     <div class="who-placehold-item front">
                         <b class="who-placehold-item-title">{{item.name}}</b>
-                        <b class="who-placehold-item-subtitle">XX成员</b>
+                        <b class="who-placehold-item-subtitle">{{item.number}}成员</b>
                     </div>
                     <div class="who-placehold-item back" ng-hide="true">
                         <p>{{item.objective}}</p>
@@ -25,22 +25,6 @@
                     </div>
                     <div class="who-placehold-item back" ng-hide="true">
                         <p>{{item.objective}}</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="who-idx-projects uk-clearfix">
-        <h2>Function Team</h2>
-        <ul class="uk-list uk-clearfix">
-            <li ng-repeat="item in teamList">
-                <a ng-href="/team/{{item.key}}">
-                    <div class="who-placehold-item">
-                        <b class="who-placehold-item-title">{{item.name}}</b>
-                        <b class="who-placehold-item-subtitle">{{item.number}}成员</b>
-                    </div>
-                    <div class="who-placehold-item back" ng-hide="true">
-                        <p>{{item.description}}</p>
                     </div>
                 </a>
             </li>

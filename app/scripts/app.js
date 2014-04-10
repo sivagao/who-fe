@@ -55,20 +55,26 @@ app.factory('dataService', ['$http', '$q', '$rootScope',
                     ]).then(function(results) {
                         _self.areaList = results[0].data;
                         _self.productList = results[1].data;
-                        // get all data and then json it!
                         return;
+                        // get all data and then json it!
                         window.productList = _self.productList;
                         $q.all(_.map(_self.areaList, function(area) {
                             return $http.get('/api/v1/area/' + area.name);
                         })).then(function(results) {
                             window._areaDetailList = _.pluck(results, 'data');
-                            var _wandouNameList = _.uniq(_.flatten(_.pluck(_areaDetailList, 'members')));
-                            $q.all(_.map(_wandouNameList, function(name) {
+                            window._wandouNameList = _.uniq(_.flatten(_.pluck(_areaDetailList, 'members')));
+                            $q.all(_.map(window._wandouNameList, function(name) {
                                 return $http.get('/api/v1/person/' + name);
                             })).then(function(results) {
                                 window._wandouList = _.pluck(results, 'data');
                             });
                         });
+                        _.map(_wandouNameList, function(n, i) {
+                            return _.extend(_wandouList[i], {
+                                nick: n
+                            })
+                        });
+                        _.zipObject(_wandouNameList, _wandouList);
                     });
                 }
             },
