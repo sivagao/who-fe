@@ -3,36 +3,114 @@
 // the 2nd parameter is an array of 'requires'
 // 'directory.services' is found in services.js
 // 'directory.controllers' is found in controllers.js
-angular.module('directory', ['ionic', 'directory.services', 'directory.controllers'])
+angular.module('whoApp', ['ionic', 'whoApp.services', 'whoApp.controllers'])
 
 
-    .config(function ($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
-        // Ionic uses AngularUI Router which uses the concept of states
-        // Learn more here: https://github.com/angular-ui/ui-router
-        // Set up the various states which the app can be in.
-        // Each state's controller can be found in controllers.js
-        $stateProvider
+    // $locationProvider.html5Mode(true);
+    // Ionic uses AngularUI Router which uses the concept of states
+    // Learn more here: https://github.com/angular-ui/ui-router
+    // Set up the various states which the app can be in.
+    // Each state's controller can be found in controllers.js
+    $stateProvider
 
-            .state('employee-index', {
-                url: '/employees',
-                templateUrl: 'templates/employee-index.html',
-                controller: 'EmployeeIndexCtrl'
-            })
+    .state('main', {
+        url: '/',
+        templateUrl: 'templates/main.html',
+        controller: 'mainCtrl',
+        resolve: {
+            wandous: function(dataService) {
+                return dataService.loadWandous();
+            },
+            area: function(dataService) {
+                return dataService.loadArea();
+            },
+            product: function(dataService) {
+                return dataService.loadProduct();
+            }
+        }
+    })
 
-            .state('employee-detail', {
-                url: '/employee/:employeeId',
-                templateUrl: 'templates/employee-detail.html',
-                controller: 'EmployeeDetailCtrl'
-            })
+    .state('wandou', {
+        url: '/wandou/:name',
+        templateUrl: 'templates/wandou.html',
+        controller: 'wandouCtrl',
+        resolve: {
+            load: function(dataService) {
+                return dataService.loadWandous();
+            }
+        }
+    })
 
-            .state('employee-reports', {
-                url: '/employee/:employeeId/reports',
-                templateUrl: 'templates/employee-reports.html',
-                controller: 'EmployeeReportsCtrl'
-            });
+    .state('area', {
+        url: '/area/:name',
+        templateUrl: 'templates/area.html',
+        controller: 'areaCtrl',
+        resolve: {
+            load: function(dataService) {
+                return dataService.loadArea();
+            }
+        }
+    })
 
-        // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/employees');
+    .state('product', {
+        url: '/product/:name',
+        templateUrl: 'templates/product.html',
+        controller: 'productCtrl',
+        resolve: {
+            load: function(dataService) {
+                return dataService.loadProduct();
+            }
+        }
+    })
 
+    .state('generalList', {
+        url: '/:type/:name',
+        templateUrl: 'templates/general-list.html',
+        controller: 'generalListCtrl',
+        resolve: {
+            load: function(dataService) {
+                return dataService.loadWandous();
+            }
+        }
+    })
+
+    .state('employedTimeline', {
+        url: '/employed-timeline',
+        templateUrl: 'templates/employed-timeline.html',
+        controller: 'employedTimelineCtrl',
+        resolve: {
+            load: function(dataService) {
+                return dataService.loadWandous();
+            }
+        }
     });
+
+    // if none of the above states are matched, use this as the fallback
+    $urlRouterProvider.otherwise('/');
+
+}).run(function($rootScope, $ionicLoading) {
+    $rootScope.checkHideBackBtn = function() {
+        return false;
+    };
+
+    $rootScope.$on('$stateChangeStart',
+        function(event, toState, toParams, fromState, fromParams) {
+            $rootScope.loading = $ionicLoading.show({
+                content: 'Loading',
+            });
+        }
+    );
+    $rootScope.$on('$stateChangeSuccess',
+        function(event, toState, toParams, fromState, fromParams) {
+            if (toState === 'main') {
+                $rootScope.isLeftSideMenu = true;
+                $rootScope.isRightSideMenu = true;
+            } else {
+                $rootScope.isLeftSideMenu = false;
+                $rootScope.isRightSideMenu = false;
+            }
+        }
+    );
+});

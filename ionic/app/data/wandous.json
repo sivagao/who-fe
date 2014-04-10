@@ -9,7 +9,8 @@
     "PA": "Games&Ads",
     "mail": "aidi@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2012-9-23"
+    "edate": "2012-9-23",
+    "nick": "aidi"
 }, {
     "function": "Frontend Engineering",
     "school": "中国矿业大学",
@@ -21,7 +22,8 @@
     "PA": "Games&Ads",
     "mail": "miaojian@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2014-2-18"
+    "edate": "2014-2-18",
+    "nick": "miaojian"
 }, {
     "function": "Engineering",
     "school": "浙江大学",
@@ -33,7 +35,8 @@
     "PA": "Games&Ads",
     "mail": "yaoyi@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2012-7-19"
+    "edate": "2012-7-19",
+    "nick": "yaoyi"
 }, {
     "function": "Engineering",
     "school": "西北大学",
@@ -45,7 +48,8 @@
     "PA": "Games&Ads",
     "mail": "huwei@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2012-7-7"
+    "edate": "2012-7-7",
+    "nick": "huwei"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京工商大学",
@@ -57,7 +61,8 @@
     "PA": "Games&Ads",
     "mail": "yongqianying@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-7-2"
+    "edate": "2013-7-2",
+    "nick": "yongqianying"
 }, {
     "function": "BPM",
     "school": "北京信息科技大学",
@@ -69,7 +74,8 @@
     "PA": "Games&Ads",
     "mail": "xinxing@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-11-26"
+    "edate": "2013-11-26",
+    "nick": "xinxing"
 }, {
     "function": "BPM",
     "school": "北京邮电大学",
@@ -81,7 +87,8 @@
     "PA": "Games&Ads",
     "mail": "huangjunlin@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2014-3-26"
+    "edate": "2014-3-26",
+    "nick": "huangjunlin"
 }, {
     "function": "Engineering",
     "school": "大四",
@@ -93,7 +100,8 @@
     "PA": "Games&Ads",
     "mail": "xubowen@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2013-7-16"
+    "edate": "2013-7-16",
+    "nick": "xubowen"
 }, {
     "function": "Product Design",
     "school": "浙江大学",
@@ -105,7 +113,8 @@
     "PA": "Games&Ads",
     "mail": "bubu@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-4-1"
+    "edate": "2013-4-1",
+    "nick": "bubu"
 }, {
     "function": "Product Design",
     "school": "暨南大学",
@@ -117,7 +126,8 @@
     "PA": "Games&Ads",
     "mail": "haijun@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2014-3-14"
+    "edate": "2014-3-14",
+    "nick": "haijun"
 }, {
     "function": "BPM",
     "school": "四川大学",
@@ -129,7 +139,8 @@
     "PA": "Games&Ads",
     "mail": "yonasliu@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-4-22"
+    "edate": "2013-4-22",
+    "nick": "yonasliu"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京邮电大学",
@@ -141,7 +152,8 @@
     "PA": "Games&Ads",
     "mail": "hongfei@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-11-29"
+    "edate": "2013-11-29",
+    "nick": "hongfei"
 }, {
     "function": "BPM",
     "school": "哈尔滨理工大学",
@@ -153,7 +165,8 @@
     "PA": "Games&Ads",
     "mail": "barry.wu@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-7-15"
+    "edate": "2013-7-15",
+    "nick": "barry.wu"
 }, {
     "function": "Engineering",
     "school": "长春工业大学",
@@ -165,7 +178,8 @@
     "PA": "Games&Ads",
     "mail": "jerry@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2011-11-26"
+    "edate": "2011-11-26",
+    "nick": "jerry"
 }, {
     "function": "Product Design",
     "school": "重庆大学",
@@ -177,7 +191,8 @@
     "PA": "Games&Ads",
     "mail": "hidecloud@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2011-7-29"
+    "edate": "2011-7-29",
+    "nick": "hidecloud"
 }, {
     "function": "BPM",
     "school": "大四",
@@ -189,7 +204,8 @@
     "PA": "Games&Ads",
     "mail": "duanwan@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-7-8"
+    "edate": "2013-7-8",
+    "nick": "duanwan"
 }, {
     "function": "Engineering",
     "school": "复旦大学",
@@ -201,7 +217,8 @@
     "PA": "Games&Ads",
     "mail": "liuxv@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-8-3"
+    "edate": "2013-8-3",
+    "nick": "liuxv"
 }, {
     "function": "BPM",
     "school": "中国人民大学",
@@ -213,7 +230,8 @@
     "PA": "Games&Ads",
     "mail": "zanzhi@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-10-10"
+    "edate": "2011-10-10",
+    "nick": "zanzhi"
 }, {
     "function": "BPM",
     "school": "北京航空航天大学",
@@ -225,7 +243,8 @@
     "PA": "Games&Ads",
     "mail": "guochao@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-9-10"
+    "edate": "2013-9-10",
+    "nick": "guochao"
 }, {
     "function": "Engineering",
     "school": "中科院",
@@ -237,7 +256,8 @@
     "PA": "Games&Ads",
     "mail": "xiaocun@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-8-1"
+    "edate": "2013-8-1",
+    "nick": "xiaocun"
 }, {
     "function": "BPM",
     "school": "大四",
@@ -249,7 +269,8 @@
     "PA": "Games&Ads",
     "mail": "wumengqi@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-12-12"
+    "edate": "2013-12-12",
+    "nick": "wumengqi"
 }, {
     "function": "Engineering",
     "school": "北京邮电大学",
@@ -261,7 +282,8 @@
     "PA": "Games&Ads",
     "mail": "cuiqiu@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-10-21"
+    "edate": "2013-10-21",
+    "nick": "cuiqiu"
 }, {
     "function": "Engineering",
     "school": "武汉大学",
@@ -273,7 +295,8 @@
     "PA": "Games&Ads",
     "mail": "zhuliangliang@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-7-5"
+    "edate": "2012-7-5",
+    "nick": "zhuliangliang"
 }, {
     "function": "Engineering",
     "school": "广东工业大学",
@@ -285,7 +308,8 @@
     "PA": "Games&Ads",
     "mail": "zhuwenjie@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-7-1"
+    "edate": "2013-7-1",
+    "nick": "zhuwenjie"
 }, {
     "function": "Engineering",
     "school": "浙江大学",
@@ -297,7 +321,8 @@
     "PA": "Games&Ads",
     "mail": "zhangchangyi@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-6-14"
+    "edate": "2013-6-14",
+    "nick": "zhangchangyi"
 }, {
     "function": "BPM",
     "school": "北京大学",
@@ -309,7 +334,8 @@
     "PA": "Games&Ads",
     "mail": "neozhang@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-2-1"
+    "edate": "2013-2-1",
+    "nick": "neozhang"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京邮电大学",
@@ -321,7 +347,8 @@
     "PA": "Games&Ads",
     "mail": "luolisi@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-2-8"
+    "edate": "2012-2-8",
+    "nick": "luolisi"
 }, {
     "function": "BPM",
     "school": "北京交通大学",
@@ -333,7 +360,8 @@
     "PA": "Games&Ads",
     "mail": "huyue@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2014-2-13"
+    "edate": "2014-2-13",
+    "nick": "huyue"
 }, {
     "function": "BPM",
     "school": "北京金融学院",
@@ -345,7 +373,8 @@
     "PA": "Games&Ads",
     "mail": "yangyapeng@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-4-11"
+    "edate": "2013-4-11",
+    "nick": "yangyapeng"
 }, {
     "function": "BPM",
     "school": "重庆邮电大学",
@@ -357,7 +386,8 @@
     "PA": "Games&Ads",
     "mail": "yulingxiao@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2014-2-6"
+    "edate": "2014-2-6",
+    "nick": "yulingxiao"
 }, {
     "function": "BPM",
     "school": "大四",
@@ -369,7 +399,8 @@
     "PA": "Games&Ads",
     "mail": "machao@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-10-25"
+    "edate": "2013-10-25",
+    "nick": "machao"
 }, {
     "function": "Marketing",
     "school": "天津商业大学",
@@ -381,7 +412,8 @@
     "PA": "Games&Ads",
     "mail": "beichen@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-11-25"
+    "edate": "2013-11-25",
+    "nick": "beichen"
 }, {
     "function": "BPM",
     "school": "北京大学",
@@ -393,7 +425,8 @@
     "PA": "Games&Ads",
     "mail": "bruce.bai@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-2-18"
+    "edate": "2013-2-18",
+    "nick": "bruce.bai"
 }, {
     "function": "Engineering",
     "school": "大连理工大学",
@@ -405,7 +438,8 @@
     "PA": "Technical Infrastructure",
     "mail": "zhida@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2012-6-11"
+    "edate": "2012-6-11",
+    "nick": "zhida"
 }, {
     "function": "Engineering",
     "school": "清华大学",
@@ -417,7 +451,8 @@
     "PA": "Technical Infrastructure",
     "mail": "dcaoyuan@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-10-10"
+    "edate": "2013-10-10",
+    "nick": "dcaoyuan"
 }, {
     "function": "Frontend Engineering",
     "school": "中国传媒大学",
@@ -429,7 +464,8 @@
     "PA": "Technical Infrastructure",
     "mail": "wangye.zhao@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2011-2-11"
+    "edate": "2011-2-11",
+    "nick": "wangye.zhao"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -441,7 +477,8 @@
     "PA": "Technical Infrastructure",
     "mail": "jay@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-3-31"
+    "edate": "2014-3-31",
+    "nick": "jay"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -453,7 +490,8 @@
     "PA": "Technical Infrastructure",
     "mail": "zhoupo@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2010-7-5"
+    "edate": "2010-7-5",
+    "nick": "zhoupo"
 }, {
     "function": "Engineering",
     "school": "浙江大学",
@@ -465,7 +503,8 @@
     "PA": "Technical Infrastructure",
     "mail": "wuxudong@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2011-8-11"
+    "edate": "2011-8-11",
+    "nick": "wuxudong"
 }, {
     "function": "Engineering",
     "school": "华东理工大学",
@@ -477,7 +516,8 @@
     "PA": "Technical Infrastructure",
     "mail": "wanghai@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2012-7-9"
+    "edate": "2012-7-9",
+    "nick": "wanghai"
 }, {
     "function": "Engineering",
     "school": "四川广旺局技工学校",
@@ -489,7 +529,8 @@
     "PA": "Technical Infrastructure",
     "mail": "aimingoo@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-4-9"
+    "edate": "2013-4-9",
+    "nick": "aimingoo"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -501,7 +542,8 @@
     "PA": "Technical Infrastructure",
     "mail": "chenxingrun@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2010-7-1"
+    "edate": "2010-7-1",
+    "nick": "chenxingrun"
 }, {
     "function": "Engineering",
     "school": "北京理工大学",
@@ -513,7 +555,8 @@
     "PA": "Technical Infrastructure",
     "mail": "fulili@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-9-5"
+    "edate": "2013-9-5",
+    "nick": "fulili"
 }, {
     "function": "Research",
     "school": "研三",
@@ -525,7 +568,8 @@
     "PA": "Technical Infrastructure",
     "mail": "fenglei@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2014-2-10"
+    "edate": "2014-2-10",
+    "nick": "fenglei"
 }, {
     "function": "Engineering",
     "school": "东北大学",
@@ -537,7 +581,8 @@
     "PA": "Technical Infrastructure",
     "mail": "huang@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-11-13"
+    "edate": "2012-11-13",
+    "nick": "huang"
 }, {
     "function": "Marketing",
     "school": "北京大学",
@@ -549,7 +594,8 @@
     "PA": "Technical Infrastructure",
     "mail": "meng@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2012-6-5"
+    "edate": "2012-6-5",
+    "nick": "meng"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -561,7 +607,8 @@
     "PA": "Technical Infrastructure",
     "mail": "wangxing@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-7-15"
+    "edate": "2013-7-15",
+    "nick": "wangxing"
 }, {
     "function": "User Operation",
     "school": "北京语言大学",
@@ -573,7 +620,8 @@
     "PA": "Happiness",
     "mail": "qinjianing@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-12-17"
+    "edate": "2012-12-17",
+    "nick": "qinjianing"
 }, {
     "function": "Content Operation",
     "school": "",
@@ -585,7 +633,8 @@
     "PA": "Happiness",
     "mail": "lisimeng@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2012-8-6"
+    "edate": "2012-8-6",
+    "nick": "lisimeng"
 }, {
     "function": "User Operation",
     "school": "北京大学",
@@ -597,7 +646,8 @@
     "PA": "Happiness",
     "mail": "lixiang@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-1-4"
+    "edate": "2013-1-4",
+    "nick": "lixiang"
 }, {
     "function": "co-founder",
     "school": "北京大学",
@@ -609,7 +659,8 @@
     "PA": "Happiness",
     "mail": "cuijin@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2010-1-4"
+    "edate": "2010-1-4",
+    "nick": "cuijin"
 }, {
     "function": "Content Operation",
     "school": "中国传媒大学南广学院",
@@ -621,7 +672,8 @@
     "PA": "Happiness",
     "mail": "xinyuxuan@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-2-22"
+    "edate": "2013-2-22",
+    "nick": "xinyuxuan"
 }, {
     "function": "Marketing",
     "school": "大四",
@@ -633,7 +685,8 @@
     "PA": "Happiness",
     "mail": "wanxinyuan@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-12-28"
+    "edate": "2013-12-28",
+    "nick": "wanxinyuan"
 }, {
     "function": "User Operation",
     "school": "华东师范大学",
@@ -645,7 +698,8 @@
     "PA": "Happiness",
     "mail": "kongchen@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-7-8"
+    "edate": "2013-7-8",
+    "nick": "kongchen"
 }, {
     "function": "Content Operation",
     "school": "北京师范大学",
@@ -657,7 +711,8 @@
     "PA": "Happiness",
     "mail": "chenzhao@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2012-6-5"
+    "edate": "2012-6-5",
+    "nick": "chenzhao"
 }, {
     "function": "User Operation",
     "school": "东北大学",
@@ -669,7 +724,8 @@
     "PA": "Happiness",
     "mail": "heguohong@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2014-1-3"
+    "edate": "2014-1-3",
+    "nick": "heguohong"
 }, {
     "function": "Content Operation",
     "school": "私立华联大学",
@@ -681,7 +737,8 @@
     "PA": "Happiness",
     "mail": "yuzwu@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-8-1"
+    "edate": "2013-8-1",
+    "nick": "yuzwu"
 }, {
     "function": "User Operation",
     "school": "大四",
@@ -693,7 +750,8 @@
     "PA": "Happiness",
     "mail": "haotianchai@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-11-25"
+    "edate": "2013-11-25",
+    "nick": "haotianchai"
 }, {
     "function": "User Operation",
     "school": "中国传媒大学",
@@ -705,7 +763,8 @@
     "PA": "Happiness",
     "mail": "liuyumeng_miao@wandoujia.com",
     "xingzuo": "",
-    "edate": "2014-2-14"
+    "edate": "2014-2-14",
+    "nick": "liuyumeng_miao"
 }, {
     "function": "User Operation",
     "school": "暨南大学",
@@ -717,7 +776,8 @@
     "PA": "Happiness",
     "mail": "gaohailang@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-6-1"
+    "edate": "2013-6-1",
+    "nick": "gaohailang"
 }, {
     "function": "User Operation",
     "school": "湖南工程学院",
@@ -729,7 +789,8 @@
     "PA": "Happiness",
     "mail": "xiaoxiang@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-4-10"
+    "edate": "2013-4-10",
+    "nick": "xiaoxiang"
 }, {
     "function": "User Operation",
     "school": "太原师范学院",
@@ -741,7 +802,8 @@
     "PA": "Happiness",
     "mail": "pengcheng@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-1-21"
+    "edate": "2013-1-21",
+    "nick": "pengcheng"
 }, {
     "function": "Content Operation",
     "school": "解放军xx学院",
@@ -753,7 +815,8 @@
     "PA": "Happiness",
     "mail": "hydee@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-7-13"
+    "edate": "2011-7-13",
+    "nick": "hydee"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京邮电大学",
@@ -765,7 +828,8 @@
     "PA": "Happiness",
     "mail": "liyin@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-7-17"
+    "edate": "2013-7-17",
+    "nick": "liyin"
 }, {
     "function": "Content Operation",
     "school": "首都体育学院",
@@ -777,7 +841,8 @@
     "PA": "Happiness",
     "mail": "tutu@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-12-16"
+    "edate": "2013-12-16",
+    "nick": "tutu"
 }, {
     "function": "Marketing",
     "school": "北京国际商务学院",
@@ -789,7 +854,8 @@
     "PA": "Happiness",
     "mail": "sujiangyu@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-1-28"
+    "edate": "2013-1-28",
+    "nick": "sujiangyu"
 }, {
     "function": "User Operation",
     "school": "大四",
@@ -801,7 +867,8 @@
     "PA": "Happiness",
     "mail": "qiaosheng@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-7-11"
+    "edate": "2013-7-11",
+    "nick": "qiaosheng"
 }, {
     "function": "User Operation",
     "school": "大四",
@@ -813,7 +880,8 @@
     "PA": "Happiness",
     "mail": "pangxiaoying@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-12-12"
+    "edate": "2013-12-12",
+    "nick": "pangxiaoying"
 }, {
     "function": "User Operation",
     "school": "北京科技大学",
@@ -825,7 +893,8 @@
     "PA": "Happiness",
     "mail": "jiangnan@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2011-1-10"
+    "edate": "2011-1-10",
+    "nick": "jiangnan"
 }, {
     "function": "Marketing",
     "school": "华南师范大学",
@@ -837,7 +906,8 @@
     "PA": "Happiness",
     "mail": "chrisyu@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-11-25"
+    "edate": "2013-11-25",
+    "nick": "chrisyu"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -849,7 +919,8 @@
     "PA": "Search",
     "mail": "yangkai@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2014-2-17"
+    "edate": "2014-2-17",
+    "nick": "yangkai"
 }, {
     "function": "Product Quality Operation",
     "school": "大四",
@@ -861,7 +932,8 @@
     "PA": "Search",
     "mail": "jimin@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-12-2"
+    "edate": "2013-12-2",
+    "nick": "jimin"
 }, {
     "function": "Frontend Engineering",
     "school": "天津美术学院",
@@ -873,7 +945,8 @@
     "PA": "Search",
     "mail": "hanjiyun@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-2-10"
+    "edate": "2014-2-10",
+    "nick": "hanjiyun"
 }, {
     "function": "Frontend Engineering",
     "school": "燕山大学",
@@ -885,7 +958,8 @@
     "PA": "Search",
     "mail": "lixiaomeng@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2011-10-18"
+    "edate": "2011-10-18",
+    "nick": "lixiaomeng"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -897,7 +971,8 @@
     "PA": "Search",
     "mail": "yt@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2011-6-2"
+    "edate": "2011-6-2",
+    "nick": "yt"
 }, {
     "function": "Product Design",
     "school": "北京大学",
@@ -909,7 +984,8 @@
     "PA": "Search",
     "mail": "liupucheng@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-3-27"
+    "edate": "2014-3-27",
+    "nick": "liupucheng"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -921,7 +997,8 @@
     "PA": "Search",
     "mail": "yaoconglei@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2012-9-19"
+    "edate": "2012-9-19",
+    "nick": "yaoconglei"
 }, {
     "function": "Engineering",
     "school": "大连大学",
@@ -933,7 +1010,8 @@
     "PA": "Search",
     "mail": "zhangchao@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2014-2-17"
+    "edate": "2014-2-17",
+    "nick": "zhangchao"
 }, {
     "function": "Product Design",
     "school": "郑州航空工业学院",
@@ -945,7 +1023,8 @@
     "PA": "Search",
     "mail": "pengrenfei@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-11-28"
+    "edate": "2013-11-28",
+    "nick": "pengrenfei"
 }, {
     "function": "Engineering",
     "school": "中国地质大学（武汉）",
@@ -957,7 +1036,8 @@
     "PA": "Search",
     "mail": "match@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2011-11-21"
+    "edate": "2011-11-21",
+    "nick": "match"
 }, {
     "function": "Product Design",
     "school": "吉林动画学院",
@@ -969,7 +1049,8 @@
     "PA": "Search",
     "mail": "wuliyang@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2012-12-24"
+    "edate": "2012-12-24",
+    "nick": "wuliyang"
 }, {
     "function": "Product Design",
     "school": "南京航天航空大学",
@@ -981,7 +1062,8 @@
     "PA": "Search",
     "mail": "caius@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2012-7-9"
+    "edate": "2012-7-9",
+    "nick": "caius"
 }, {
     "function": "Engineering",
     "school": "北京邮电大学",
@@ -993,7 +1075,8 @@
     "PA": "Search",
     "mail": "wenchengye@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2013-8-14"
+    "edate": "2013-8-14",
+    "nick": "wenchengye"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -1005,7 +1088,8 @@
     "PA": "Search",
     "mail": "zhaohao@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-4-11"
+    "edate": "2013-4-11",
+    "nick": "zhaohao"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -1017,7 +1101,8 @@
     "PA": "Search",
     "mail": "yingyixu@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-7-8"
+    "edate": "2013-7-8",
+    "nick": "yingyixu"
 }, {
     "function": "User Operation",
     "school": "黑龙江大学",
@@ -1029,7 +1114,8 @@
     "PA": "Search",
     "mail": "lisiyi@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2012-7-4"
+    "edate": "2012-7-4",
+    "nick": "lisiyi"
 }, {
     "function": "Product Design",
     "school": "福州大学",
@@ -1041,7 +1127,8 @@
     "PA": "Search",
     "mail": "jintian@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2011-9-5"
+    "edate": "2011-9-5",
+    "nick": "jintian"
 }, {
     "function": "Engineering",
     "school": "清华大学",
@@ -1053,7 +1140,8 @@
     "PA": "Search",
     "mail": "james@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2014-1-20"
+    "edate": "2014-1-20",
+    "nick": "james"
 }, {
     "function": "Engineering",
     "school": "湖南师范大学",
@@ -1065,7 +1153,8 @@
     "PA": "Search",
     "mail": "fengzanfeng@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-4-28"
+    "edate": "2011-4-28",
+    "nick": "fengzanfeng"
 }, {
     "function": "Engineering",
     "school": "中科院",
@@ -1077,7 +1166,8 @@
     "PA": "Search",
     "mail": "lizhi@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2013-5-16"
+    "edate": "2013-5-16",
+    "nick": "lizhi"
 }, {
     "function": "Product Design",
     "school": "北京师范大学/中科院声学所",
@@ -1089,7 +1179,8 @@
     "PA": "Search",
     "mail": "xumin@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2014-1-11"
+    "edate": "2014-1-11",
+    "nick": "xumin"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -1101,7 +1192,8 @@
     "PA": "Search",
     "mail": "lidahai@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-8-5"
+    "edate": "2013-8-5",
+    "nick": "lidahai"
 }, {
     "function": "Engineering",
     "school": "西安电子科技大学",
@@ -1113,7 +1205,8 @@
     "PA": "Search",
     "mail": "niuli@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-4-18"
+    "edate": "2013-4-18",
+    "nick": "niuli"
 }, {
     "function": "User Operation",
     "school": "大四",
@@ -1125,7 +1218,8 @@
     "PA": "Search",
     "mail": "wensonglin@wandoujia.com",
     "xingzuo": "天平",
-    "edate": "2013-11-14"
+    "edate": "2013-11-14",
+    "nick": "wensonglin"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -1137,7 +1231,8 @@
     "PA": "Search",
     "mail": "pengyuehui@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2010-12-1"
+    "edate": "2010-12-1",
+    "nick": "pengyuehui"
 }, {
     "function": "User Operation",
     "school": "研三",
@@ -1149,7 +1244,8 @@
     "PA": "Search",
     "mail": "xiaaihua@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2014-2-6"
+    "edate": "2014-2-6",
+    "nick": "xiaaihua"
 }, {
     "function": "Engineering",
     "school": "北京工业大学",
@@ -1161,7 +1257,8 @@
     "PA": "Search",
     "mail": "pengfei@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2010-12-7"
+    "edate": "2010-12-7",
+    "nick": "pengfei"
 }, {
     "function": "Frontend Engineering",
     "school": "北京信息工程学院",
@@ -1173,7 +1270,8 @@
     "PA": "Search",
     "mail": "lixiaopeng@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-4-19"
+    "edate": "2013-4-19",
+    "nick": "lixiaopeng"
 }, {
     "function": "Biz Dev/Sales",
     "school": "",
@@ -1185,7 +1283,8 @@
     "PA": "Search",
     "mail": "zhuangjun@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2012-12-8"
+    "edate": "2012-12-8",
+    "nick": "zhuangjun"
 }, {
     "function": "Engineering",
     "school": "",
@@ -1197,7 +1296,8 @@
     "PA": "Search",
     "mail": "wanlianwen@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-4-26"
+    "edate": "2013-4-26",
+    "nick": "wanlianwen"
 }, {
     "function": "Product Design",
     "school": "哈尔滨工业大学",
@@ -1209,7 +1309,8 @@
     "PA": "Search",
     "mail": "kuangfei@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2012-6-5"
+    "edate": "2012-6-5",
+    "nick": "kuangfei"
 }, {
     "function": "Engineering",
     "school": "同济大学",
@@ -1221,7 +1322,8 @@
     "PA": "Search",
     "mail": "yuyilin@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2011-11-8"
+    "edate": "2011-11-8",
+    "nick": "yuyilin"
 }, {
     "function": "User Operation",
     "school": "华中师范大学",
@@ -1233,7 +1335,8 @@
     "PA": "Search",
     "mail": "wenzhenhua@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2012-9-10"
+    "edate": "2012-9-10",
+    "nick": "wenzhenhua"
 }, {
     "function": "Engineering",
     "school": "北京航空航天大学",
@@ -1245,7 +1348,8 @@
     "PA": "Search",
     "mail": "liuhuang@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-9-4"
+    "edate": "2013-9-4",
+    "nick": "liuhuang"
 }, {
     "function": "Product Quality Operation",
     "school": "Sonoma State University",
@@ -1257,7 +1361,8 @@
     "PA": "Search",
     "mail": "chaom@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2013-12-2"
+    "edate": "2013-12-2",
+    "nick": "chaom"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -1269,7 +1374,8 @@
     "PA": "Search",
     "mail": "huangdong@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-2-28"
+    "edate": "2014-2-28",
+    "nick": "huangdong"
 }, {
     "function": "Frontend Engineering",
     "school": "大四",
@@ -1281,7 +1387,8 @@
     "PA": "Search",
     "mail": "zhailin@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2012-6-30"
+    "edate": "2012-6-30",
+    "nick": "zhailin"
 }, {
     "function": "Product Design",
     "school": "中央民族大学",
@@ -1293,7 +1400,8 @@
     "PA": "Search",
     "mail": "lianlei@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2013-11-29"
+    "edate": "2013-11-29",
+    "nick": "lianlei"
 }, {
     "function": "Engineering",
     "school": "中南大学",
@@ -1305,7 +1413,8 @@
     "PA": "Search",
     "mail": "zhulantian@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-8-5"
+    "edate": "2013-8-5",
+    "nick": "zhulantian"
 }, {
     "function": "Engineering",
     "school": "东北大学",
@@ -1317,7 +1426,8 @@
     "PA": "Search",
     "mail": "luantao@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-1-8"
+    "edate": "2013-1-8",
+    "nick": "luantao"
 }, {
     "function": "Product Design",
     "school": "武汉大学",
@@ -1329,7 +1439,8 @@
     "PA": "Search",
     "mail": "jiangkuan@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-8-19"
+    "edate": "2013-8-19",
+    "nick": "jiangkuan"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -1341,7 +1452,8 @@
     "PA": "Search",
     "mail": "hawstein@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2013-12-6"
+    "edate": "2013-12-6",
+    "nick": "hawstein"
 }, {
     "function": "Engineering",
     "school": "大四",
@@ -1353,7 +1465,8 @@
     "PA": "Search",
     "mail": "wheam@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-7-15"
+    "edate": "2013-7-15",
+    "nick": "wheam"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -1365,7 +1478,8 @@
     "PA": "Search",
     "mail": "tangkai@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2014-1-11"
+    "edate": "2014-1-11",
+    "nick": "tangkai"
 }, {
     "function": "Frontend Engineering",
     "school": "大四",
@@ -1377,7 +1491,8 @@
     "PA": "Search",
     "mail": "netputer@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-7-15"
+    "edate": "2013-7-15",
+    "nick": "netputer"
 }, {
     "function": "Product Design",
     "school": "西北工业",
@@ -1389,7 +1504,8 @@
     "PA": "Search",
     "mail": "zhangqiang@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2011-8-4"
+    "edate": "2011-8-4",
+    "nick": "zhangqiang"
 }, {
     "function": "Product Design",
     "school": "北京大学",
@@ -1401,7 +1517,8 @@
     "PA": "Search",
     "mail": "zhaoqi@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-7-1"
+    "edate": "2013-7-1",
+    "nick": "zhaoqi"
 }, {
     "function": "Product Quality Operation",
     "school": "武汉大学",
@@ -1413,7 +1530,8 @@
     "PA": "Search",
     "mail": "zhangxiaoxu@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2013-9-2"
+    "edate": "2013-9-2",
+    "nick": "zhangxiaoxu"
 }, {
     "function": "Product Design",
     "school": "北京舞蹈学院",
@@ -1425,7 +1543,8 @@
     "PA": "Search",
     "mail": "liyang@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2012-8-27"
+    "edate": "2012-8-27",
+    "nick": "liyang"
 }, {
     "function": "Marketing",
     "school": "中国传媒大学",
@@ -1437,7 +1556,8 @@
     "PA": "Search",
     "mail": "wenshuqi@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-3-15"
+    "edate": "2013-3-15",
+    "nick": "wenshuqi"
 }, {
     "function": "Product Design",
     "school": "浙江大学",
@@ -1449,7 +1569,8 @@
     "PA": "Search",
     "mail": "cuihuaizhou@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2014-1-6"
+    "edate": "2014-1-6",
+    "nick": "cuihuaizhou"
 }, {
     "function": "Product Design",
     "school": "Delft University of Technology",
@@ -1461,7 +1582,8 @@
     "PA": "Search",
     "mail": "lixinyang@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-2-28"
+    "edate": "2013-2-28",
+    "nick": "lixinyang"
 }, {
     "function": "Product Design",
     "school": "北京航空航天大学",
@@ -1473,7 +1595,8 @@
     "PA": "Search",
     "mail": "catt@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-6-1"
+    "edate": "2013-6-1",
+    "nick": "catt"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -1485,7 +1608,8 @@
     "PA": "Search",
     "mail": "xubin@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2012-12-26"
+    "edate": "2012-12-26",
+    "nick": "xubin"
 }, {
     "function": "Product Design",
     "school": "浙江大学",
@@ -1497,7 +1621,8 @@
     "PA": "Search",
     "mail": "yaping@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2011-4-13"
+    "edate": "2011-4-13",
+    "nick": "yaping"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -1509,7 +1634,8 @@
     "PA": "Search",
     "mail": "yuxiaotao@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-6-18"
+    "edate": "2013-6-18",
+    "nick": "yuxiaotao"
 }, {
     "function": "Product Design",
     "school": "北京大学",
@@ -1521,7 +1647,8 @@
     "PA": "Search",
     "mail": "xiangyu@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-1-4"
+    "edate": "2013-1-4",
+    "nick": "xiangyu"
 }, {
     "function": "Engineering",
     "school": "南开大学",
@@ -1533,7 +1660,8 @@
     "PA": "Search",
     "mail": "yunjie@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2014-3-24"
+    "edate": "2014-3-24",
+    "nick": "yunjie"
 }, {
     "function": "Engineering",
     "school": "哈尔滨工业大学",
@@ -1545,7 +1673,8 @@
     "PA": "Search",
     "mail": "shirui@wandoujial.com",
     "xingzuo": "摩羯",
-    "edate": "2014-3-19"
+    "edate": "2014-3-19",
+    "nick": "shirui"
 }, {
     "function": "Product Design",
     "school": "重庆邮电大学",
@@ -1557,7 +1686,8 @@
     "PA": "Search",
     "mail": "zhangyonghao@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-9-17"
+    "edate": "2013-9-17",
+    "nick": "zhangyonghao"
 }, {
     "function": "Engineering",
     "school": "大四",
@@ -1569,7 +1699,8 @@
     "PA": "Search",
     "mail": "xingfei@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-5-24"
+    "edate": "2013-5-24",
+    "nick": "xingfei"
 }, {
     "function": "Engineering",
     "school": "浙江大学",
@@ -1581,7 +1712,8 @@
     "PA": "Search",
     "mail": "wangchao@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-12-17"
+    "edate": "2013-12-17",
+    "nick": "wangchao"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -1593,7 +1725,8 @@
     "PA": "Search",
     "mail": "alan@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2011-4-12"
+    "edate": "2011-4-12",
+    "nick": "alan"
 }, {
     "function": "Engineering",
     "school": "湖南农业大学",
@@ -1605,7 +1738,8 @@
     "PA": "Search",
     "mail": "duanjun@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-5-3"
+    "edate": "2011-5-3",
+    "nick": "duanjun"
 }, {
     "function": "Frontend Engineering",
     "school": "沈阳工业大学",
@@ -1617,7 +1751,8 @@
     "PA": "Search",
     "mail": "wangxiao@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-2-23"
+    "edate": "2013-2-23",
+    "nick": "wangxiao"
 }, {
     "function": "Engineering",
     "school": "",
@@ -1629,7 +1764,8 @@
     "PA": "Search",
     "mail": "wuxiaoyue@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-6-3"
+    "edate": "2013-6-3",
+    "nick": "wuxiaoyue"
 }, {
     "function": "Engineering",
     "school": "研一",
@@ -1641,7 +1777,8 @@
     "PA": "Search",
     "mail": "tangqisen@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2012-4-21"
+    "edate": "2012-4-21",
+    "nick": "tangqisen"
 }, {
     "function": "Engineering",
     "school": "",
@@ -1653,7 +1790,8 @@
     "PA": "Search",
     "mail": "chenxi@wandoujia.com",
     "xingzuo": "",
-    "edate": "2014-3-31"
+    "edate": "2014-3-31",
+    "nick": "chenxi"
 }, {
     "function": "Engineering",
     "school": "香港科技大学",
@@ -1665,7 +1803,8 @@
     "PA": "Search",
     "mail": "lihao@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2012-11-27"
+    "edate": "2012-11-27",
+    "nick": "lihao"
 }, {
     "function": "Engineering",
     "school": "中国科技大学",
@@ -1677,7 +1816,8 @@
     "PA": "Search",
     "mail": "jinzhenkun@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-4-15"
+    "edate": "2013-4-15",
+    "nick": "jinzhenkun"
 }, {
     "function": "User Operation",
     "school": "北京化工大学",
@@ -1689,7 +1829,8 @@
     "PA": "Search",
     "mail": "wandongfeng@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2013-9-16"
+    "edate": "2013-9-16",
+    "nick": "wandongfeng"
 }, {
     "function": "User Operation",
     "school": "澳门大学",
@@ -1701,7 +1842,8 @@
     "PA": "Search",
     "mail": "liujiao@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-9-23"
+    "edate": "2013-9-23",
+    "nick": "liujiao"
 }, {
     "function": "Product Quality Operation",
     "school": "研三",
@@ -1713,7 +1855,8 @@
     "PA": "Search",
     "mail": "wangrui@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-12-11"
+    "edate": "2013-12-11",
+    "nick": "wangrui"
 }, {
     "function": "User Operation",
     "school": "武汉大学",
@@ -1725,7 +1868,8 @@
     "PA": "Search",
     "mail": "yangxiaohui@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-6-24"
+    "edate": "2013-6-24",
+    "nick": "yangxiaohui"
 }, {
     "function": "Engineering",
     "school": "博五",
@@ -1737,7 +1881,8 @@
     "PA": "Search",
     "mail": "liyinn@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-10-15"
+    "edate": "2013-10-15",
+    "nick": "liyinn"
 }, {
     "function": "Engineering",
     "school": "北京交通大学",
@@ -1749,7 +1894,8 @@
     "PA": "Search",
     "mail": "changjiang@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2014-3-26"
+    "edate": "2014-3-26",
+    "nick": "changjiang"
 }, {
     "function": "Engineering",
     "school": "北京航空航天大学",
@@ -1761,7 +1907,8 @@
     "PA": "Search",
     "mail": "lqs@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2014-1-7"
+    "edate": "2014-1-7",
+    "nick": "lqs"
 }, {
     "function": "Engineering",
     "school": "西北大学",
@@ -1773,7 +1920,8 @@
     "PA": "Search",
     "mail": "huangxueqing@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-7-10"
+    "edate": "2013-7-10",
+    "nick": "huangxueqing"
 }, {
     "function": "Engineering",
     "school": "电子科技大学",
@@ -1785,7 +1933,8 @@
     "PA": "Search",
     "mail": "morewindows@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-5-2"
+    "edate": "2013-5-2",
+    "nick": "morewindows"
 }, {
     "function": "User Operation",
     "school": "北京邮电大学",
@@ -1797,7 +1946,8 @@
     "PA": "Search",
     "mail": "yanjingwen@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-7-22"
+    "edate": "2013-7-22",
+    "nick": "yanjingwen"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -1809,7 +1959,8 @@
     "PA": "Search",
     "mail": "bokecai@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-3-26"
+    "edate": "2014-3-26",
+    "nick": "bokecai"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -1821,7 +1972,8 @@
     "PA": "Search",
     "mail": "chenbz@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2014-3-10"
+    "edate": "2014-3-10",
+    "nick": "chenbz"
 }, {
     "function": "Product Design",
     "school": "中央音乐学院",
@@ -1833,7 +1985,8 @@
     "PA": "Search",
     "mail": "gaojialu@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-7-16"
+    "edate": "2013-7-16",
+    "nick": "gaojialu"
 }, {
     "function": "Biz Dev/Sales",
     "school": "大四",
@@ -1845,7 +1998,8 @@
     "PA": "Search",
     "mail": "liuyi@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-12-23"
+    "edate": "2013-12-23",
+    "nick": "liuyi"
 }, {
     "function": "Frontend Engineering",
     "school": "东北电力大学",
@@ -1857,7 +2011,8 @@
     "PA": "Search",
     "mail": "leplay@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2011-7-25"
+    "edate": "2011-7-25",
+    "nick": "leplay"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -1869,7 +2024,8 @@
     "PA": "Search",
     "mail": "liuyx@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2011-4-19"
+    "edate": "2011-4-19",
+    "nick": "liuyx"
 }, {
     "function": "Product Design",
     "school": "大四",
@@ -1881,7 +2037,8 @@
     "PA": "Search",
     "mail": "caiwei@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2013-7-2"
+    "edate": "2013-7-2",
+    "nick": "caiwei"
 }, {
     "function": "Engineering",
     "school": "重庆大学",
@@ -1893,7 +2050,8 @@
     "PA": "Search",
     "mail": "weiqiyiji@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2011-7-11"
+    "edate": "2011-7-11",
+    "nick": "weiqiyiji"
 }, {
     "function": "Engineering",
     "school": "北京航空航天大学",
@@ -1905,7 +2063,8 @@
     "PA": "Search",
     "mail": "xuda@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2014-1-20"
+    "edate": "2014-1-20",
+    "nick": "xuda"
 }, {
     "function": "Engineering",
     "school": "北京化工大学",
@@ -1917,7 +2076,8 @@
     "PA": "Search",
     "mail": "ouzhiyin@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2011-7-18"
+    "edate": "2011-7-18",
+    "nick": "ouzhiyin"
 }, {
     "function": "Engineering",
     "school": "清华大学",
@@ -1929,7 +2089,8 @@
     "PA": "Search",
     "mail": "liuchunyu@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-1-4"
+    "edate": "2013-1-4",
+    "nick": "liuchunyu"
 }, {
     "function": "Engineering",
     "school": "研三",
@@ -1941,7 +2102,8 @@
     "PA": "Apps",
     "mail": "tess3ract@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-7-1"
+    "edate": "2013-7-1",
+    "nick": "tess3ract"
 }, {
     "function": "Engineering",
     "school": "北京工业大学",
@@ -1953,7 +2115,8 @@
     "PA": "Apps",
     "mail": "xiaobo@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2010-12-7"
+    "edate": "2010-12-7",
+    "nick": "xiaobo"
 }, {
     "function": "Product Design",
     "school": "大四",
@@ -1965,7 +2128,8 @@
     "PA": "Apps",
     "mail": "majie@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2014-2-18"
+    "edate": "2014-2-18",
+    "nick": "majie"
 }, {
     "function": "Engineering",
     "school": "中科院/中科大",
@@ -1977,7 +2141,8 @@
     "PA": "Apps",
     "mail": "dongliu@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2012-9-3"
+    "edate": "2012-9-3",
+    "nick": "dongliu"
 }, {
     "function": "Engineering",
     "school": "西安电子科技大学",
@@ -1989,7 +2154,8 @@
     "PA": "Apps",
     "mail": "zhangnan@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2011-2-10"
+    "edate": "2011-2-10",
+    "nick": "zhangnan"
 }, {
     "function": "Engineering",
     "school": "清华大学",
@@ -2001,7 +2167,8 @@
     "PA": "Apps",
     "mail": "duguguiyu@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2011-4-13"
+    "edate": "2011-4-13",
+    "nick": "duguguiyu"
 }, {
     "function": "Engineering",
     "school": "北京航天航空大学",
@@ -2013,7 +2180,8 @@
     "PA": "Apps",
     "mail": "limy@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2014-3-20"
+    "edate": "2014-3-20",
+    "nick": "limy"
 }, {
     "function": "Biz Dev/Sales",
     "school": "湖南理工学院",
@@ -2025,7 +2193,8 @@
     "PA": "Apps",
     "mail": "dongxuemin@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2014-2-15"
+    "edate": "2014-2-15",
+    "nick": "dongxuemin"
 }, {
     "function": "Engineering",
     "school": "西安电子科技大学",
@@ -2037,7 +2206,8 @@
     "PA": "Apps",
     "mail": "wangyuzhou@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2012-7-24"
+    "edate": "2012-7-24",
+    "nick": "wangyuzhou"
 }, {
     "function": "Engineering",
     "school": "武汉大学",
@@ -2049,7 +2219,8 @@
     "PA": "Apps",
     "mail": "ljp215@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-7-1"
+    "edate": "2013-7-1",
+    "nick": "ljp215"
 }, {
     "function": "Biz Dev/Sales",
     "school": "沈阳工业大学",
@@ -2061,7 +2232,8 @@
     "PA": "Apps",
     "mail": "zhangwenjing@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2013-4-23"
+    "edate": "2013-4-23",
+    "nick": "zhangwenjing"
 }, {
     "function": "Product Design",
     "school": "华中科技大学",
@@ -2073,7 +2245,8 @@
     "PA": "Apps",
     "mail": "wangchaojun@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2014-3-10"
+    "edate": "2014-3-10",
+    "nick": "wangchaojun"
 }, {
     "function": "Engineering",
     "school": "中科院",
@@ -2085,7 +2258,8 @@
     "PA": "Apps",
     "mail": "luoxiaofang@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2012-7-16"
+    "edate": "2012-7-16",
+    "nick": "luoxiaofang"
 }, {
     "function": "Product Design",
     "school": "北京邮电大学",
@@ -2097,7 +2271,8 @@
     "PA": "Apps",
     "mail": "huanghe@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2013-10-29"
+    "edate": "2013-10-29",
+    "nick": "huanghe"
 }, {
     "function": "Biz Dev/Sales",
     "school": "研二",
@@ -2109,7 +2284,8 @@
     "PA": "Apps",
     "mail": "bailu@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2013-11-7"
+    "edate": "2013-11-7",
+    "nick": "bailu"
 }, {
     "function": "Engineering",
     "school": "武汉大学",
@@ -2121,7 +2297,8 @@
     "PA": "Apps",
     "mail": "gaolitao@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2013-7-5"
+    "edate": "2013-7-5",
+    "nick": "gaolitao"
 }, {
     "function": "Biz Dev/Sales",
     "school": "中国农业大学",
@@ -2133,7 +2310,8 @@
     "PA": "Apps",
     "mail": "wangxueting@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-5-25"
+    "edate": "2013-5-25",
+    "nick": "wangxueting"
 }, {
     "function": "Biz Dev/Sales",
     "school": "中山大学",
@@ -2145,7 +2323,8 @@
     "PA": "Apps",
     "mail": "zhangyan@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2012-12-13"
+    "edate": "2012-12-13",
+    "nick": "zhangyan"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京工业大学",
@@ -2157,7 +2336,8 @@
     "PA": "Apps",
     "mail": "lizaolu@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2011-9-16"
+    "edate": "2011-9-16",
+    "nick": "lizaolu"
 }, {
     "function": "Engineering",
     "school": "华中科技大学",
@@ -2169,7 +2349,8 @@
     "PA": "Apps",
     "mail": "shenkaixin@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-7-1"
+    "edate": "2013-7-1",
+    "nick": "shenkaixin"
 }, {
     "function": "Biz Dev/Sales",
     "school": "中国传媒大学",
@@ -2181,7 +2362,8 @@
     "PA": "Apps",
     "mail": "sunyi@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2011-12-1"
+    "edate": "2011-12-1",
+    "nick": "sunyi"
 }, {
     "function": "Engineering",
     "school": "北京理工大学",
@@ -2193,7 +2375,8 @@
     "PA": "Apps",
     "mail": "dongming@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2013-5-13"
+    "edate": "2013-5-13",
+    "nick": "dongming"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -2205,7 +2388,8 @@
     "PA": "Apps",
     "mail": "lixian@wandoujia.com",
     "xingzuo": "双鱼",
-    "edate": "2013-9-18"
+    "edate": "2013-9-18",
+    "nick": "lixian"
 }, {
     "function": "Biz Dev/Sales",
     "school": "",
@@ -2217,7 +2401,8 @@
     "PA": "Apps",
     "mail": "fengzhanjun@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-9-7"
+    "edate": "2012-9-7",
+    "nick": "fengzhanjun"
 }, {
     "function": "Biz Dev/Sales",
     "school": "大四",
@@ -2229,7 +2414,8 @@
     "PA": "Apps",
     "mail": "duyujing@wandoujia.com",
     "xingzuo": "白羊",
-    "edate": "2014-2-17"
+    "edate": "2014-2-17",
+    "nick": "duyujing"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -2241,7 +2427,8 @@
     "PA": "Apps",
     "mail": "chentian@wandoujia.com",
     "xingzuo": "射手",
-    "edate": "2011-12-12"
+    "edate": "2011-12-12",
+    "nick": "chentian"
 }, {
     "function": "Internationalization",
     "school": "Stanford University",
@@ -2253,7 +2440,8 @@
     "PA": "Apps",
     "mail": "kai@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2012-2-15"
+    "edate": "2012-2-15",
+    "nick": "kai"
 }, {
     "function": "Engineering",
     "school": "东南大学",
@@ -2265,7 +2453,8 @@
     "PA": "Apps",
     "mail": "xgao@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-3-21"
+    "edate": "2011-3-21",
+    "nick": "xgao"
 }, {
     "function": "Engineering",
     "school": "",
@@ -2277,7 +2466,8 @@
     "PA": "Apps",
     "mail": "wanzheng@wandoujia.com",
     "xingzuo": "",
-    "edate": "2014-3-29"
+    "edate": "2014-3-29",
+    "nick": "wanzheng"
 }, {
     "function": "Engineering",
     "school": "湖南大学",
@@ -2289,7 +2479,8 @@
     "PA": "Apps",
     "mail": "chendong@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2013-5-6"
+    "edate": "2013-5-6",
+    "nick": "chendong"
 }, {
     "function": "Product Design",
     "school": "中国地质大学（武汉）",
@@ -2301,7 +2492,8 @@
     "PA": "Apps",
     "mail": "minjin@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2014-2-20"
+    "edate": "2014-2-20",
+    "nick": "minjin"
 }, {
     "function": "Biz Dev/Sales",
     "school": "西南科技大学",
@@ -2313,7 +2505,8 @@
     "PA": "Apps",
     "mail": "chensi@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2013-11-4"
+    "edate": "2013-11-4",
+    "nick": "chensi"
 }, {
     "function": "Biz Dev/Sales",
     "school": "研三",
@@ -2325,7 +2518,8 @@
     "PA": "Apps",
     "mail": "limingyu@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2014-1-9"
+    "edate": "2014-1-9",
+    "nick": "limingyu"
 }, {
     "function": "Biz Dev/Sales",
     "school": "",
@@ -2337,7 +2531,8 @@
     "PA": "Apps",
     "mail": "dongli@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2011-11-21"
+    "edate": "2011-11-21",
+    "nick": "dongli"
 }, {
     "function": "Biz Dev/Sales",
     "school": "研三",
@@ -2349,7 +2544,8 @@
     "PA": "Apps",
     "mail": "luonan@wandoujia.com",
     "xingzuo": "水瓶",
-    "edate": "2013-2-18"
+    "edate": "2013-2-18",
+    "nick": "luonan"
 }, {
     "function": "Research",
     "school": "中国人民大学",
@@ -2361,7 +2557,8 @@
     "PA": "Apps",
     "mail": "weijin@wandoujia.com",
     "xingzuo": "摩羯",
-    "edate": "2011-11-29"
+    "edate": "2011-11-29",
+    "nick": "weijin"
 }, {
     "function": "Engineering",
     "school": "北京大学",
@@ -2373,7 +2570,8 @@
     "PA": "Apps",
     "mail": "dingjichang@wandoujia.com",
     "xingzuo": "天蝎",
-    "edate": "2010-1-1"
+    "edate": "2010-1-1",
+    "nick": "dingjichang"
 }, {
     "function": "Engineering",
     "school": "西北工业大学",
@@ -2385,7 +2583,8 @@
     "PA": "Apps",
     "mail": "songfeifei@wandoujia.com",
     "xingzuo": "巨蟹",
-    "edate": "2012-8-6"
+    "edate": "2012-8-6",
+    "nick": "songfeifei"
 }, {
     "function": "Frontend Engineering",
     "school": "天津师范大学",
@@ -2397,7 +2596,8 @@
     "PA": "Apps",
     "mail": "zhangyaochun@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-5-2"
+    "edate": "2013-5-2",
+    "nick": "zhangyaochun"
 }, {
     "function": "Research",
     "school": "\"中国人民大学 青岛理工大学\"",
@@ -2409,7 +2609,8 @@
     "PA": "Apps",
     "mail": "gaiyongjuan@wandoujia.com",
     "xingzuo": "处女",
-    "edate": "2014-3-14"
+    "edate": "2014-3-14",
+    "nick": "gaiyongjuan"
 }, {
     "function": "Engineering",
     "school": "北京邮电大学",
@@ -2421,7 +2622,8 @@
     "PA": "Apps",
     "mail": "yanguang@wandoujia.com",
     "xingzuo": "狮子",
-    "edate": "2013-8-14"
+    "edate": "2013-8-14",
+    "nick": "yanguang"
 }, {
     "function": "Biz Dev/Sales",
     "school": "四川华西国际经贸学院",
@@ -2433,7 +2635,8 @@
     "PA": "Apps",
     "mail": "vicky@wandoujia.com",
     "xingzuo": "金牛",
-    "edate": "2014-3-24"
+    "edate": "2014-3-24",
+    "nick": "vicky"
 }, {
     "function": "Biz Dev/Sales",
     "school": "中国人民大学",
@@ -2445,7 +2648,8 @@
     "PA": "Apps",
     "mail": "ningfeng@wandoujia.com",
     "xingzuo": "天秤",
-    "edate": "2012-9-6"
+    "edate": "2012-9-6",
+    "nick": "ningfeng"
 }, {
     "function": "Biz Dev/Sales",
     "school": "北京大学",
@@ -2457,5 +2661,6 @@
     "PA": "Apps",
     "mail": "congmiao@wandoujia.com",
     "xingzuo": "双子",
-    "edate": "2010-11-15"
+    "edate": "2010-11-15",
+    "nick": "congmiao"
 }]

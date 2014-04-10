@@ -19,3 +19,112 @@
 .list {
     clear: both;
 }
+
+.item-content .avatar {
+    float: left;
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 1em;
+    border-radius: 4px;
+}
+
+.profile-users .memberdiv {
+background-color: #FFF;
+width: 100px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 0;
+text-align: center;
+margin: 0 8px 24px;
+}
+
+.itemdiv.memberdiv {
+padding: 2px;
+margin: 3px 0;
+float: left;
+border-bottom: 1px solid #E8E8E8;
+}
+
+.itemdiv {
+padding-right: 3px;
+min-height: 66px;
+position: relative;
+}
+.profile-users .user {
+display: block;
+position: static;
+text-align: center;
+width: auto;
+}
+.profile-users .user img {
+padding: 2px;
+border-radius: 100%;
+border: 1px solid #AAA;
+max-width: none;
+width: 64px;
+-webkit-transition: all .1s;
+transition: all .1s;
+}
+.profile-users .memberdiv .body {
+display: inline-block;
+margin: 8px 0 0 0;
+}
+.profile-users .memberdiv .body .name a{
+  white-space: nowrap;
+  text-decoration: none;
+}
+.profile-users .memberdiv .body .name a:hover{
+  text-decoration: none;
+}
+.user-status.status-online {
+border-color: #8AC16C;
+}
+.user-status {
+display: inline-block;
+width: 11px;
+height: 11px;
+background-color: #FFF;
+border: 3px solid #AAA;
+border-radius: 100%;
+vertical-align: middle;
+margin-right: 1px;
+}
+
+
+.uk-description-list-horizontal {
+line-height: 30px;
+}
+* + p, * + hr, * + ul, * + ol, * + dl, * + blockquote, * + pre, * + address, * + fieldset, * + figure {
+margin-top: 15px;
+}
+p, hr, ul, ol, dl, blockquote, pre, address, fieldset, figure {
+margin: 0 0 15px 0;
+}
+.uk-description-list-horizontal > dt {
+width: auto;
+font-weight: normal;
+color: #999;
+margin-right: 10px;
+}
+.uk-description-list-horizontal > dt {
+width: 50px;
+float: left;
+clear: both;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.uk-description-list-horizontal > dd {
+margin-left: 0;
+float: left;
+}
+
+
+.position-relative {
+position: relative;
+}
+.inline {
+display: inline-block!important;
+}

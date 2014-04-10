@@ -249,13 +249,11 @@ module.exports = function(grunt) {
                     expand: true,
                     dot: true,
                     cwd: '<%= yeoman.app %>',
-                    dest: 'www',
+                    dest: 'who/www',
                     src: [
-                        'images/**/*.{png,jpg,jpeg,gif,webp,svg}',
-                        '*.html',
-                        'templates/**/*.html',
-                        'fonts/*',
-                        'res/*'
+                        '**',
+                        '!bower_components/**/*',
+                        '!config.xml'
                     ]
                 }, {
                     expand: true,
@@ -333,9 +331,9 @@ module.exports = function(grunt) {
         //     }
         //   }
         // },
-        // concat: {
-        //   dist: {}
-        // },
+        concat: {
+            dist: {}
+        },
 
         // Test settings
         // These will override any config options in karma.conf.js if you create it.
@@ -492,18 +490,16 @@ module.exports = function(grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
-        'bower-install',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
-        'concat',
+        // 'concat',
         'ngmin',
         'copy:dist',
         'cssmin',
-        'uglify',
+        // 'uglify',
         'usemin',
-        'htmlmin',
-        'cordova:build'
+        'htmlmin'
     ]);
 
     grunt.registerTask('cordova', ['copy:all', 'cordova:build']);
