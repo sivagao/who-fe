@@ -1,0 +1,208 @@
+[{
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "OEM",
+    "tl": "n/a",
+    "PA": "Apps",
+    "objective": "实现全自动的 OEM 流程",
+    "mail": "oem-team@wandoujia.com",
+    "pm": "duguguiyu",
+    "$$hashKey": "00F"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "User Acquisition",
+    "tl": "n/a",
+    "PA": "Apps",
+    "objective": "用产品技术手段挖掘流量潜力，最大程度提升激活和分发量",
+    "mail": "ua-team@wandoujia.com",
+    "pm": "huanghe",
+    "$$hashKey": "00G"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Multimedia",
+    "tl": "yaoconglei",
+    "PA": "Search",
+    "objective": "各种多媒体内容「直达行动」「情景化」的发现和消费体验",
+    "mail": "multimedia-team@wandoujia.com",
+    "pm": "zhaoqi",
+    "$$hashKey": "00H"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Partners",
+    "tl": "n/a",
+    "PA": "Apps",
+    "objective": "通过提供合作伙伴广泛使用的产品和技术服务，获得更多的新用户量和应用分发量",
+    "mail": "partners-team@wandoujia.com",
+    "pm": "dingjichang",
+    "$$hashKey": "00I"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Content Features",
+    "tl": "yuyilin",
+    "PA": "Search",
+    "objective": "用户消费、管理内容的工具，包括播放、阅读、同步等",
+    "mail": "contentfeatures-team@wandoujia.com",
+    "pm": "kuangfei",
+    "$$hashKey": "00J"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Tools",
+    "tl": "n/a",
+    "PA": "Apps",
+    "objective": "形成豌豆荚产品矩阵，覆盖更多新用户，形成对主产品的保护",
+    "mail": "tools-team@wandoujia.com",
+    "pm": "huanghe",
+    "$$hashKey": "00K"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Sharing",
+    "tl": "n/a",
+    "PA": "Happiness",
+    "objective": "通过超出用户预期的产品体验吸引 Influencers，通过运营手段激励 Influencers 主动分享推荐与内容贡献。",
+    "mail": "sharing-team@wandoujia.com",
+    "pm": "lisimeng xinyuxuan chenzhao",
+    "$$hashKey": "00L"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Ads",
+    "tl": "jerry",
+    "PA": "Games&Ads",
+    "objective": "保证广告收入持续增长，扩大广告分发能力",
+    "mail": "ads-team@wandoujia.com",
+    "pm": "bruce.bai",
+    "$$hashKey": "00M"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Search Platform",
+    "tl": "lidahai",
+    "PA": "Search",
+    "objective": "为所有搜索门类打造「全面准确」的移动内容搜索基础，包括爬虫、索引、更新和排序等",
+    "mail": "searchplatform-team@wandoujia.com",
+    "pm": "lidahai",
+    "$$hashKey": "00N"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Connection / Download / Transmit",
+    "tl": "wanlianwen",
+    "PA": "Search",
+    "objective": "\"用户使用豌豆荚连接 - 下载 - 传输的核心链条\"",
+    "mail": "cdt-team@wandoujia.com",
+    "pm": "jiangkuan",
+    "$$hashKey": "00O"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Android Platform",
+    "tl": "yuyilin",
+    "PA": "Search",
+    "objective": "豌豆荚 Android 版基础技术和架构，提高基础性能",
+    "mail": "androidplatform-team@wandoujia.com",
+    "pm": "liuchunyu",
+    "$$hashKey": "00P"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Windows Platform",
+    "tl": "wanlianwen",
+    "PA": "Search",
+    "objective": "豌豆荚 Windows 版基础技术和架构，提高基础性能",
+    "mail": "windowsplatform-team@wandoujia.com",
+    "pm": "wanlianwen",
+    "$$hashKey": "00Q"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Social Circle",
+    "tl": "n/a",
+    "PA": "Happiness",
+    "objective": "通过矩阵式的运营手段，让用户在豌豆荚的 circle 内充满幸福感",
+    "mail": "social-team@wandoujia.com",
+    "pm": "jiangnan",
+    "$$hashKey": "00R"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Data",
+    "tl": "aimingoo",
+    "PA": "Technical Infrastructure",
+    "objective": "实现可持续的数据存储与处理架构",
+    "mail": "data-team@wandoujia.com",
+    "pm": "aimingoo",
+    "$$hashKey": "00S"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Utils",
+    "tl": "n/a",
+    "PA": "Technical Infrastructure",
+    "objective": "利用工具将平台上的生产过程工程化",
+    "mail": "utils-team@wandoujia.com",
+    "pm": "aimingoo",
+    "$$hashKey": "00T"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Community / UGC",
+    "tl": "pengrenfei",
+    "PA": "Search",
+    "objective": "通过社交的方式改进用户发现内容的体验",
+    "mail": "ugc-team@wandoujia.com",
+    "pm": "pengrenfei",
+    "$$hashKey": "00U"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Data Tools",
+    "tl": "n/a",
+    "PA": "Apps",
+    "objective": "通过用户运营工具提升下载量和降低卸载",
+    "mail": "dt-team@wandoujia.com",
+    "pm": "weijin",
+    "$$hashKey": "00V"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Emerging Markets",
+    "tl": "xgao",
+    "PA": "Apps",
+    "objective": "使豌豆荚成为除了 Google Play 之外新兴市场用户应用发现、搜索、下载的首选",
+    "mail": "em-team@wandoujia.com",
+    "pm": "kai",
+    "$$hashKey": "00W"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Payment",
+    "tl": "n/a",
+    "PA": "Games&Ads",
+    "objective": "给用户提供优质的移动内容消费体验，提高用户付费意愿",
+    "mail": "payments-team@wandoujia.com",
+    "pm": "zanzhi",
+    "$$hashKey": "00X"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Platform",
+    "tl": "dengcaoyuan",
+    "PA": "Technical Infrastructure",
+    "objective": "在特定场景下实现“发现-消费”内容的一步到位",
+    "mail": "platform-team@wandoujia.com",
+    "pm": "dengcaoyuan",
+    "$$hashKey": "00Y"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Wi-Fi Service",
+    "tl": "n/a",
+    "PA": "Search",
+    "objective": "为用户提供随时随地可访问的 Wi-Fi 服务",
+    "mail": "freewifi-team@wandoujia.com",
+    "pm": "n/a",
+    "$$hashKey": "00Z"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Games",
+    "tl": "yaoyi",
+    "PA": "Games&Ads",
+    "objective": "业界领先的以数据驱动的游戏运营体系",
+    "mail": "games-team@wandoujia.com",
+    "pm": "hidecloud",
+    "$$hashKey": "010"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.wyvlax56qqwg",
+    "name": "Android Experience",
+    "tl": "yuyilin",
+    "PA": "Search",
+    "objective": "解决用户手机消费内容的障碍，包括流量、电量、空间等",
+    "mail": "androidexperience-team@wandoujia.com",
+    "pm": "zhangqiang",
+    "$$hashKey": "011"
+}]

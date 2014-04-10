@@ -1,0 +1,36 @@
+[{
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.r4ht6iqi8zqb",
+    "name": "Games&Ads",
+    "owner": "neozhang",
+    "members": ["aidi", "miaojian", "yaoyi", "huwei", "yongqianying", "xinxing", "huangjunlin", "xubowen", "bubu", "haijun", "yonasliu", "hongfei", "barry.wu", "jerry", "hidecloud", "duanwan", "liuxv", "zanzhi", "guochao", "xiaocun", "wumengqi", "cuiqiu", "zhuliangliang", "zhuwenjie", "zhangchangyi", "neozhang", "luolisi", "huyue", "yangyapeng", "yulingxiao", "machao", "beichen", "bruce.bai"],
+    "objective": "Enable the best developers to widely reach and effectively engage with our users. And generate sizable revenue streams for the ecosystem.",
+    "mail": "ag-team@wandoujia.com"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.ylj332tx4t1q",
+    "name": "Technical Infrastructure",
+    "owner": "aimingoo",
+    "members": ["zhida", "dcaoyuan", "wangye.zhao", "jay", "zhoupo", "wuxudong", "wanghai", "aimingoo", "chenxingrun", "fulili", "fenglei", "huang", "meng", "wangxing"],
+    "objective": "做最优秀的基础技术。",
+    "mail": "ti-team@wandoujia.com"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.580aql1va9ra",
+    "name": "Happiness",
+    "owner": "cuijin",
+    "members": ["qinjianing", "lisimeng", "lixiang", "cuijin", "xinyuxuan", "wanxinyuan", "kongchen", "chenzhao", "heguohong", "yuzwu", "haotianchai", "liuyumeng_miao", "gaohailang", "xiaoxiang", "pengcheng", "hydee", "liyin", "tutu", "sujiangyu", "qiaosheng", "pangxiaoying", "jiangnan", "chrisyu"],
+    "objective": "豌豆荚区隔化地成为移动内容搜索第一品牌。",
+    "mail": "hps-team@wandoujia.com"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.ldbfiablprcb",
+    "name": "Search",
+    "owner": "yaping",
+    "members": ["yangkai", "jimin", "hanjiyun", "lixiaomeng", "yt", "liupucheng", "yaoconglei", "zhangchao", "pengrenfei", "match", "wuliyang", "caius", "wenchengye", "zhaohao", "yingyixu", "lisiyi", "jintian", "james", "fengzanfeng", "lizhi", "xumin", "lidahai", "niuli", "wensonglin", "pengyuehui", "xiaaihua", "pengfei", "lixiaopeng", "zhuangjun", "wanlianwen", "kuangfei", "yuyilin", "wenzhenhua", "liuhuang", "chaom", "huangdong", "zhailin", "lianlei", "zhulantian", "luantao", "jiangkuan", "hawstein", "wheam", "tangkai", "netputer", "zhangqiang", "zhaoqi", "zhangxiaoxu", "liyang", "wenshuqi", "cuihuaizhou", "lixinyang", "catt", "xubin", "yaping", "yuxiaotao", "xiangyu", "yunjie", "shirui", "zhangyonghao", "xingfei", "wangchao", "alan", "duanjun", "wangxiao", "wuxiaoyue", "tangqisen", "chenxi", "lihao", "jinzhenkun", "wandongfeng", "liujiao", "wangrui", "yangxiaohui", "liyinn", "changjiang", "lqs", "huangxueqing", "morewindows", "yanjingwen", "bokecai", "chenbz", "gaojialu", "liuyi", "leplay", "liuyx", "caiwei", "weiqiyiji", "xuda", "ouzhiyin", "liuchunyu"],
+    "objective": "提供「全面」「准确」「情景化」的移动内容搜索。",
+    "mail": "search-team@wandoujia.com"
+}, {
+    "okr": "https://docs.google.com/a/wandoujia.com/document/d/1Cx5-yTmY6W8LMURHa6TWQ8Eh4dgeqTXARzyudpVxMZY/edit#heading=h.qp7pj829ptzi",
+    "name": "Apps",
+    "owner": "lizaolu",
+    "members": ["tess3ract", "xiaobo", "majie", "dongliu", "zhangnan", "duguguiyu", "limy", "dongxuemin", "wangyuzhou", "ljp215", "zhangwenjing", "wangchaojun", "luoxiaofang", "huanghe", "bailu", "gaolitao", "wangxueting", "zhangyan", "lizaolu", "shenkaixin", "sunyi", "dongming", "lixian", "fengzhanjun", "duyujing", "chentian", "kai", "xgao", "wanzheng", "chendong", "minjin", "chensi", "limingyu", "dongli", "luonan", "weijin", "dingjichang", "songfeifei", "zhangyaochun", "gaiyongjuan", "yanguang", "vicky", "ningfeng", "congmiao"],
+    "objective": "利用产品和技术能力，让全球用户可以随时随地通过各种产品使用到豌豆荚提供的服务。",
+    "mail": "apps-team@wandoujia.com"
+}]
