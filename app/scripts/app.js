@@ -250,22 +250,6 @@ app.controller('wandouCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$rou
     }
 ]);
 
-app.controller('teamCtrl', ['$scope', '$rootScope', '$timeout',
-    function($scope, $rootScope, $timeout) {
-        $('body').animate({
-            scrollTop: 120
-        }, 800);
-
-        $scope.teamInfo = {
-            'name': 'Design',
-            'desc': '负责公司内数据分析产品的研发与运营，同时与各项目组一同对数据深入分析与整理。例如看不明白某个数据，不知道某个数据去哪里找，可以咨询DM',
-            'team': 'Design',
-            'owner': '刘亚平',
-            'email': 'bubu@wandouija.com'
-        };
-    }
-]);
-
 app.controller('areaCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams',
     function($scope, $rootScope, $timeout, $http, $routeParams) {
         $('body').animate({
@@ -308,12 +292,20 @@ app.controller('productCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$ro
     }
 ]);
 
-app.controller('navbarCtrl', ['$scope', '$rootScope', '$location',
-    function($scope, $rootScope, $location) {
+app.controller('navbarCtrl', ['$scope', '$rootScope', '$location', '$http',
+    function($scope, $rootScope, $location, $http) {
         $scope.focusHandler = function() {
             $location.path('/');
         };
 
+        $scope.$watch('navbarQuery', function(val) {
+            if (val) {
+                $http.get('/api/v1/query?word=' + val).then(function(resp) {
+                    $scope.searchResults = resp.data;
+                    console.log($scope.searchResults);
+                });
+            }
+        });
     }
 ]);
 

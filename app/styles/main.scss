@@ -250,17 +250,15 @@ body{
                 background: #FFF;
                 text-align: center;
                 color: #fff;
+                display: table;
                 .who-placehold-item-title {
-                    padding-top: 48px;
-                    display: block;
-                    line-height: 37px;
-                    height: 37px;
-                    font-size: 28px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    line-height: 24px;
+                    font-size: 18px;
                 }
                 .who-placehold-item-subtitle {
-                padding-top: 28px;
-                padding-bottom: 25px;
-                display: block;
+                    font-size: 14px;
                 }
             }
             p{

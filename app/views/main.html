@@ -5,8 +5,9 @@
             <li ng-repeat="item in areaList">
                 <a ng-href="/area/{{item.name}}">
                     <div class="who-placehold-item front">
-                        <b class="who-placehold-item-title">{{item.name}}</b>
-                        <b class="who-placehold-item-subtitle">{{item.number}}成员</b>
+                        <b class="who-placehold-item-title">{{item.name}}
+                            <br><b class="who-placehold-item-subtitle">{{item.number}}成员</b>
+                        </b>
                     </div>
                     <div class="who-placehold-item back" ng-hide="true">
                         <p>{{item.objective}}</p>
