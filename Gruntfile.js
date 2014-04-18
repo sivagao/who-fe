@@ -53,10 +53,11 @@ module.exports = function(grunt) {
         },
         connect: {
             options: {
-                port: 80,
+                port: 8080,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: '0.0.0.0',
-                livereload: 35730,
+                livereload: 35731,
+                open: true,
                 middleware: function(connect, options) {
                     var optBase = (typeof options.base === 'string') ? [options.base] : options.base;
                     return [

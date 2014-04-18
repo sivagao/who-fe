@@ -9,3 +9,7 @@ dist
 docs
 coverage
 analysis
+ionic/app/data/areas.json
+ionic/app/data/products.json
+ionic/app/data/wandoudict.json
+ionic/app/data/wandous.json

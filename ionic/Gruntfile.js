@@ -28,12 +28,12 @@ module.exports = function(grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
+            options: {
+                livereload: 35740
+            },
             js: {
                 files: ['<%= yeoman.app %>/<%= yeoman.scripts %>/**/*.js'],
-                tasks: ['newer:jshint:all'],
-                options: {
-                    livereload: true
-                }
+                tasks: ['newer:jshint:all']
             },
             compass: {
                 files: ['<%= yeoman.app %>/<%= yeoman.styles %>/**/*.{scss,sass}'],
@@ -43,9 +43,6 @@ module.exports = function(grunt) {
                 files: ['Gruntfile.js']
             },
             livereload: {
-                options: {
-                    livereload: '<%= connect.options.livereload %>'
-                },
                 files: [
                     '<%= yeoman.app %>/*.html',
                     '<%= yeoman.app %>/templates/**/*.html',
@@ -61,7 +58,7 @@ module.exports = function(grunt) {
                 port: 9000,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: 'localhost',
-                livereload: 35729,
+                livereload: 35739,
                 middleware: function(connect, options) {
                     var optBase = (typeof options.base === 'string') ? [options.base] : options.base;
                     return [
