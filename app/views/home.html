@@ -1,13 +1,16 @@
-<div class="who-home" ng-cloak>
-    <div class="who-idx-teams uk-clearfix">
+<div class="who-home who-container">
+
+    <!-- all product areas -->
+    <div>
         <h2>Product Areas(PA)</h2>
-        <ul class="uk-list uk-clearfix">
+        <ul class="who-color-blocks uk-list uk-clearfix">
             <li ng-repeat="item in areaList">
                 <a ng-href="/area/{{item.name}}">
                     <div class="who-placehold-item front">
-                        <b class="who-placehold-item-title">{{item.name}}
-                            <br><b class="who-placehold-item-subtitle">{{item.number}}成员</b>
+                        <b class="who-placehold-item-title">
+                            {{item.name}}
                         </b>
+                        <span class="who-placehold-item-subtitle">{{item.number}}成员</span>
                     </div>
                     <div class="who-placehold-item back" ng-hide="true">
                         <p>{{item.objective}}</p>
@@ -16,11 +19,13 @@
             </li>
         </ul>
     </div>
-    <div class="who-idx-teams uk-clearfix">
+
+    <!-- all products -->
+    <div>
         <h2>Product</h2>
-        <ul class="uk-list uk-clearfix">
+        <ul class="who-color-blocks uk-list uk-clearfix">
             <li ng-repeat="item in productList">
-                <a ng-href="/product/{{item.name}}">
+                <a ng-href="/product/{{item.id}}">
                     <div class="who-placehold-item front">
                         <b class="who-placehold-item-title">{{item.name}}</b>
                     </div>
@@ -32,22 +37,18 @@
         </ul>
     </div>
 
-    <div class="who-idx-wandous uk-clearfix">
+    <!-- wandou showcase -->
+    <div>
         <h2>豌豆展台</h2>
-        <ul class="uk-list uk-clearfix">
-            <li>
-                <a href="/wandou/2" style="position: relative">
-                    <div class="front">
-                        <img data-src="holder.js/90x90" alt="">
-                    </div>
-                    <div class="back" ng-hide="true">
-                        <p>负责论坛运营设计相关</p>
-                    </div>
+        <ul class="uk-list uk-clearfix who-avatar-list">
+            <li ng-repeat="item in personList|limitTo: 8">
+                <a href="/wandou/{{item.id}}">
+                    <img ng-src="{{item.img|checkImg}}">
                     <span class="label">新豌豆</span>
                 </a>
-                <p class="uk-text-center">高海浪</p>
+                <p class="uk-text-center">{{item.name}}</p>
             </li>
         </ul>
     </div>
-
 </div>
+

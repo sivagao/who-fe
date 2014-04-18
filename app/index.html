@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Application content -->
-    <div ng-app="whoApp">
+    <div>
         <nav class="uk-navbar who-navbar" ng-controller="navbarCtrl">
             <a class="uk-navbar-brand who-navbar-content" href="/" alt="找豌豆"><img src="http://img.wdjimg.com/who/logo.png"></a>
             <div class="uk-navbar-flip">
@@ -51,7 +51,7 @@
             </div>
         </nav>
         <!-- <div ng-include="'views/menu/_MenuView.html'"></div> -->
-        <div ng-view></div>
+        <div class="who-container" ng-view></div>
     </div>
 
     <script src="/components/jquery/jquery.js"></script>
@@ -60,8 +60,6 @@
     <!-- build:js /scripts/plugins.js -->
     <script src="/components/lodash/lodash.js"></script>
     <script src="/components/holder.js"></script>
-    <script src="/components/isotope.js"></script>
-
     <script src="/components/sass-bootstrap/js/collapse.js"></script>
     <script src="/components/sass-bootstrap/js/transition.js"></script>
     <script src="/components/sass-bootstrap/js/dropdown.js"></script>
@@ -75,10 +73,6 @@
     <script src="/components/angular-animate/angular-animate.js"></script>
     <script src="/components/angular-touch/angular-touch.js"></script>
     <!-- endbuild -->
-
-    <!-- build:js({.tmp,app}) /scripts//scripts.js -->
-    <script src="/scripts/app.js"></script>
-    <!-- endbuild -->
-
+    <script src="/components/requirejs/require.js" data-main="/scripts/main.js"></script>
 </body>
 </html>

@@ -1,61 +1,57 @@
-<div class="who-p-detail">
-    <div class="uk-grid detail-ctx">
-        <div class="uk-width-1-3 uk-text-center">
-            <img style="float: right; border-radius: 45px;" data-src="holder.js/190x190/text:{{areaInfo.name}}" alt="">
-            <a ng-click="isShowEditForm = !isShowEditForm" class="uk-button who-btn who-wandou-update-btn">更新信息</a>
-        </div>
-        <div class="uk-width-2-3" ng-show="!isShowEditForm">
-            <h1 class="uk-article-title">{{areaInfo.name}}</h1>
-            <p class="uk-article-lead uk-article-meta">
-                <i class="uk-icon-quote-left"></i>&nbsp;&nbsp;{{areaInfo.objective}}.
-            </p>
-            <h3 class="who-subtitle">
-                相关信息
-            </h3>
-            <dl class="uk-description-list uk-description-list-horizontal">
-                <dt>负责任</dt>
-                <dd>{{areaInfo.owner}}</dd>
-                <dt>邮箱</dt>
-                <dd>{{areaInfo.mail}}</dd>
-            </dl>
+<div class="who-detail who-container">
+    <div class="who-card-page detail-ctx">
+        <h1 class="uk-article-title">{{areaInfo.name}}</h1>
+        <p class="uk-article-lead uk-article-meta">
+            Product Area
+        </p>
+        <h2>Objective</h2>
+        <p>{{areaInfo.objective}}</p>
 
-            <h3 class="who-subtitle">
-                组内成员
-            </h3>
-            <div class="uk-panel">
-                <ul class="who-avatar-list">
-                    <li ng-repeat="member in areaInfo.members">
-                        <a ng-href="/wandou/{{member}}"><img alt="{{member}}" data-src="holder.js/60x60/text:{{member}}"></a>
-                    </li>
-                </ul>
-            </div>
+        <h2>Email</h2>
+        <p>{{areaInfo.mail}}</p>
+
+        <h2>Leader</h2>
+        <ul class="uk-list uk-clearfix who-avatar-list">
+            <li>
+                <a ng-href="/wandou/{{areaInfo.owner.id}}">
+                    <img src="{{areaInfo.owner.img |checkImg}}"
+                        alt="{{areaInfo.owner.name}}">
+                </a>
+                <p>{{areaInfo.owner.name}}</p>
+            </li>
+        </ul>
+
+        <h2>Product Team</h2>
+        <div>
+            <ul class="who-color-blocks uk-list uk-clearfix">
+            <li ng-repeat="item in areaInfo.products">
+                    <a ng-href="/product/{{item.id}}">
+                        <div class="who-placehold-item front">
+                            <b class="who-placehold-item-title">{{item.name}}</b>
+                        </div>
+                        <div class="who-placehold-item back" ng-hide="true">
+                            <p>{{item.objective}}</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="uk-width-2-3" ng-show="isShowEditForm">
-            <h1 class="uk-article-title">{{areaInfo.name}}</h1>
-            <form class="uk-form uk-form-horizontal" name="areaInfoForm">
-                <div class="uk-form-row">
-                    <label class="uk-form-label" for="form-h-t">描述</label>
-                    <div class="uk-form-controls">
-                        <textarea cols="30" rows="5" ng-model="areaInfo.objective"></textarea>
-                    </div>
-                </div>
-                <div class="uk-form-row">
-                    <label class="uk-form-label" for="form-h-it">负责人</label>
-                    <div class="uk-form-controls">
-                        <input type="text" name="owner" ng-model="areaInfo.owner">
-                    </div>
-                </div>
-                <div class="uk-form-row">
-                    <label class="uk-form-label" for="form-h-it">邮箱</label>
-                    <div class="uk-form-controls">
-                        <input type="text" ng-model="areaInfo.mail" name="mail">
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="detail-btn-ctx">
-        <a href="/" class="uk-button who-btn ng-scope"><i class="uk-icon-long-arrow-left"></i>&nbsp;&nbsp;回到首页</a>
+
+        <h2>组内成员</h2>
+        <ul class="uk-list uk-clearfix who-avatar-list">
+            <li ng-repeat="item in areaInfo.members">
+                <a ng-href="/wandou/{{item.id}}">
+                    <img src="{{item.img |checkImg}}"
+                        alt="{{item.name}}">
+                </a>
+                <p>{{item.name}}</p>
+            </li>
+        </ul>
     </div>
 </div>
+
+
+
+
+
 
