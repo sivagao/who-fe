@@ -9,13 +9,24 @@ define([], function() {
                 $scope.personList = dataService.personList;
             }
         ])
-        .controller('wandouCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams', 'dataService',
-            function($scope, $rootScope, $timeout, $http, $routeParams, dataService) {
+        .controller('wandouCtrl', ['$scope', '$rootScope', '$timeout', '$routeParams', 'dataService', '$configData',
+            function($scope, $rootScope, $timeout, $routeParams, dataService, $configData) {
                 // $('body').animate({
                 //     scrollTop: 120
                 // }, 800);
 
+                $scope.xingzuoList = $configData.xingzuoList;
+                $scope.provinceList = $configData.provinceList;
                 $scope.wandouInfo = dataService.personDict[$routeParams.name];
+
+                console.log($scope.wandouInfo);
+
+                $scope.updateWandouInfoHandler = function() {
+                    console.log($scope.wandouInfo);
+                    dataService.updateWandou($scope.wandouInfo).then(function() {
+                        $scope.isShowEditForm = false;
+                    });
+                };
             }
         ])
         .controller('areaCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams',
@@ -59,7 +70,12 @@ define([], function() {
         ])
         .controller('navbarCtrl', ['$scope', '$rootScope', '$location', '$http',
             function($scope, $rootScope, $location, $http) {
-
+                $scope.keydownHandler = function(e) {
+                    console.log(e);
+                    if (e.keyCode === 13) {
+                        $location.path('/search/' + $scope.navbarQuery);
+                    }
+                }
                 $scope.$watch('navbarQuery', function(val) {
                     if (val) {
                         $location.path('/search/' + val);

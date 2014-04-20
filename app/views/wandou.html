@@ -99,19 +99,31 @@
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">Function</label>
                 <div class="uk-form-controls">
-                    <input type="text" name="job" ng-model="wandouInfo.function">
+                    <select ui-select2 ng-model="wandouInfo.function" data-placeholder="选择你的Function">
+                        <option value=""></option>
+                        <option ng-repeat="function in functionList" value="{{function}}">{{function}}</option>
+                    </select>
+                    <!-- <input type="text" name="job" ng-model="wandouInfo.function"> -->
                 </div>
             </div>
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">Manager</label>
                 <div class="uk-form-controls">
-                    <input type="text" ng-model="wandouInfo.manager" name="manager">
+                    <select ui-select2 ng-model="wandouInfo.manager" data-placeholder="选择你的Manager">
+                        <option value=""></option>
+                        <option ng-repeat="person in personList" value="{{person.id}}">{{person.id}}</option>
+                    </select>
+                    <!-- <input type="text" ng-model="wandouInfo.manager" name="manager"> -->
                 </div>
             </div>
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">Project Area</label>
                 <div class="uk-form-controls">
-                    <input type="text" ng-model="wandouInfo.PA" name="team">
+                    <select ui-select2 ng-model="wandouInfo.PA" data-placeholder="选择你的PA">
+                        <option value=""></option>
+                        <option ng-repeat="productArea in productAreaList" value="{{productArea}}">{{productArea}}</option>
+                    </select>
+                    <!-- <input type="text" ng-model="wandouInfo.PA" name="team"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -129,11 +141,9 @@
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">星座</label>
                 <div class="uk-form-controls">
-                    <select ui-select2 ng-model="wandouInfo.xingzuo" data-placeholder="Pick a number">
+                    <select ui-select2 ng-model="wandouInfo.xingzuo" data-placeholder="选择你的星座">
                         <option value=""></option>
-                        <option value="one">One</option>
-                        <option value="two">Second</option>
-                        <option value="three">Third</option>
+                        <option ng-repeat="xingzuo in xingzuoList" value="{{xingzuo}}">{{xingzuo}}</option>
                     </select>
                     <!-- <input type="text" ng-model="wandouInfo.xingzuo" name="xingzuo"> -->
                 </div>
@@ -141,7 +151,11 @@
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">籍贯</label>
                 <div class="uk-form-controls">
-                    <input type="text" ng-model="wandouInfo.hometown" name="hometown">
+                    <select ui-select2 ng-model="wandouInfo.hometown" data-placeholder="选择你的籍贯">
+                        <option value=""></option>
+                        <option ng-repeat="province in provinceList" value="{{province}}">{{province}}</option>
+                    </select>
+                    <!-- <input type="text" ng-model="wandouInfo.hometown" name="hometown"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -150,7 +164,7 @@
                     <input type="text" ng-model="wandouInfo.school" name="school">
                 </div>
             </div>
-            <div class="uk-form-row">
+            <!-- <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">社交帐号</label>
                 <div class="uk-form-controls">
                     <div ng-repeat="item in wandouInfo.socialArr">
@@ -158,15 +172,15 @@
                         <input type="text" class="long-input" ng-model="wandouInfo.socialArr[$index][1]">
                     </div>
                 </div>
-            </div>
-            <div class="uk-form-row">
+            </div> -->
+            <!-- <div class="uk-form-row">
                 <div class="uk-form-controls">
                     <a ng-click="wandouInfo.socialArr.push([])" class="uk-button">添加一个社交帐号</a>
                 </div>
-            </div>
+            </div> -->
             <div class="uk-form-row">
                 <div class="uk-form-controls">
-                    <a ng-click="isShowEditForm = !isShowEditForm" class="uk-button who-primary-btn">完成</a>
+                    <a ng-click="updateWandouInfoHandler()" class="uk-button who-primary-btn">完成</a>
                     <a ng-click="isShowEditForm = !isShowEditForm" class="uk-button">取消</a>
                 </div>
             </div>
