@@ -6,10 +6,12 @@ var app = angular.module('whoApp', [
     'ngRoute',
     'ngAnimate',
     'ngTouch',
+    'ui.select2',
     // whoApp
     'whoApp.directives',
     'whoApp.controllers',
-    'whoApp.filters'
+    'whoApp.filters',
+    'imageupload'
 ]);
 
 // development
@@ -80,7 +82,7 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
                 ]
             }
         })
-        .when('/query/:word', {
+        .when('/search/:word', {
             templateUrl: '/views/search.html',
             controller: 'searchCtrl'
         })

@@ -29,19 +29,12 @@ define([], function() {
                 });
             }
         ])
-        .controller('searchCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams',
-            function($scope, $rootScope, $timeout, $http, $routeParams) {
-                $('body').animate({
-                    scrollTop: 120
-                }, 800);
+        .controller('searchCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams', 'dataService', '$filter',
+            function($scope, $rootScope, $timeout, $http, $routeParams, dataService, $filter) {
                 console.log('searchCtrl');
 
-                $http.get('/api/v1/query', {
-                    params: {
-                        word: $routeParams.word
-                    },
-                    cache: true
-                }).then(function(resp) {
+
+                dataService.query($routeParams.word).then(function(resp) {
                     if ((resp.data.length === 1) && _.isEmpty(resp.data[0])) {
                         console.log('NO RESULT');
                         return;
@@ -49,7 +42,12 @@ define([], function() {
                     $scope.searchInfo = _.groupBy(resp.data, function(item) {
                         return item.type
                     });
-                    console.log(resp);
+                    _.each($scope.searchInfo, function(type) {
+                        _.each(type, function(item) {
+                            item.color = $filter('getRandomColor')('color');
+                        });
+                    });
+                    $scope.searchWord = $routeParams.word;
                     console.log($scope.searchInfo);
                 });
             }
@@ -61,16 +59,10 @@ define([], function() {
         ])
         .controller('navbarCtrl', ['$scope', '$rootScope', '$location', '$http',
             function($scope, $rootScope, $location, $http) {
-                $scope.focusHandler = function() {
-                    $location.path('/');
-                };
 
                 $scope.$watch('navbarQuery', function(val) {
                     if (val) {
-                        $http.get('/api/v1/query?word=' + val).then(function(resp) {
-                            $scope.searchResults = resp.data;
-                            console.log($scope.searchResults);
-                        });
+                        $location.path('/search/' + val);
                     }
                 });
             }

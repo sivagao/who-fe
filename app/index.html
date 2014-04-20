@@ -10,6 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 
+    <link rel="stylesheet" href="/components/select2/select2.css">
     <!-- build:css(.tmp) /styles/main.css -->
     <link rel="stylesheet" href="/styles/main.css">
     <!-- endbuild -->
@@ -41,24 +42,27 @@
                         <i class="uk-icon-spinner uk-icon-spin" ng-show="isShowSearchIcon"></i>
                     </form>
                 </div>
-                <div class="who-navbar-content home-navbar-export">
+                <!-- <div class="who-navbar-content home-navbar-export">
                     <button class="uk-button"><i class="uk-icon-download"></i>导出所有豌豆通讯录.csv</button>
-                </div>
-                <div class="who-navbar-content home-navbar-avatar">
-                    <img src="holder.js/35x35" alt="">
-                    <span>傅莹莹</span>
-                </div>
+                </div> -->
+                <a class="who-navbar-content navbar-avatar" ng-href="/wandou/{{currentUser.id}}">
+                    <img ng-src="{{currentUser.img}}" alt="{{currentUser.name}}">
+                    <span>{{currentUser.name}}</span>
+                </a>
             </div>
         </nav>
         <!-- <div ng-include="'views/menu/_MenuView.html'"></div> -->
-        <div class="who-container" ng-view></div>
+        <div class="who-container" autoscroll ng-view></div>
     </div>
 
     <script src="/components/jquery/jquery.js"></script>
+    <script src="/components/select2/select2.js"></script>
     <script src="/components/angular/angular.js"></script>
+    <script src="/components/angular-ui-select2/src/select2.js"></script>
 
     <!-- build:js /scripts/plugins.js -->
     <script src="/components/lodash/lodash.js"></script>
+    <script src="/components/select2/js/dropdown.js"></script>
     <script src="/components/holder.js"></script>
     <script src="/components/sass-bootstrap/js/collapse.js"></script>
     <script src="/components/sass-bootstrap/js/transition.js"></script>

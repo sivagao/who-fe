@@ -17,7 +17,8 @@ define([
     './services',
     './controllers',
     './filters',
-    './app'
+    './app',
+    './imageupload'
 ], function() {
     angular.bootstrap(document, ['whoApp'])
 });

@@ -73,6 +73,13 @@ define([], function() {
                     },
                     loadArea: function(name) {
 
+                    },
+                    query: function(name) {
+                        return $http.get('/api/v1/query', {
+                            params: {
+                                word: name
+                            }
+                        });
                     }
                 }
             }
@@ -129,6 +136,13 @@ define([], function() {
                         return response;
                     }
                 };
+            }
+        ])
+        .run(['$http', '$rootScope',
+            function($http, $rootScope) {
+                $http.get('/api/v1/current_user').then(function(resp) {
+                    $rootScope.currentUser = resp.data;
+                });
             }
         ]);
 });

@@ -19,5 +19,13 @@ define([], function() {
                     return val;
                 }
             }
+        ]).filter('getRandomColor', [
+
+            function() {
+                return function(val) {
+                    var colors = ['c38867', 'ffc247', '3baa24', '4cc9b6', '4e9ce6', 'ff7272', 'ff8f4b', '9777d6'];
+                    return '#' + _.shuffle(colors)[0];
+                }
+            }
         ]);
 });

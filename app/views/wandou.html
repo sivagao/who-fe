@@ -1,9 +1,22 @@
 <div class="who-card-page uk-clearfix">
     <div class="who-wandou-left">
-        <img ng-src="{{wandouInfo.img | checkImg}}" alt="">
-        <p><a ng-click="isShowEditForm = !isShowEditForm" class="uk-button who-btn who-wandou-update-btn">更新信息</a></p>
+        <div ng-show="!isShowEditForm">
+            <img ng-src="{{wandouInfo.img | checkImg}}" alt="">
+            <p ng-show="currentUser.id===wandouInfo.id">
+                <a ng-click="isShowEditForm = !isShowEditForm"
+                    class="uk-button who-btn who-wandou-update-btn">更新信息</a>
+            </p>
+        </div>
+        <div ng-show="isShowEditForm">
+            <img ng-src="{{wandouInfo.img | checkImg}}" ng-show="!imageUpload">
+            <img ng-show="imageUpload"
+                type="{{imageUpload.file.type}}" ng-src="{{imageUpload.dataURL}}">
+            <p>
+                <input type="file" accept="image/*" image="imageUpload">
+            </p>
+        </div>
     </div>
-    <div class="who-wandou-right" ng-show="!isShowEditForm">
+    <div class="who-wandou-right ng-animate-fadedown" ng-show="!isShowEditForm">
         <h1 class="uk-article-title">{{wandouInfo.name}}  {{wandouInfo.id}}</h1>
         <p class="uk-article-lead uk-article-meta">
             {{wandouInfo.function||"这里是描述"}}
@@ -74,7 +87,7 @@
             </ul>
         </div> -->
     </div>
-    <div class="who-wandou-right" ng-show="isShowEditForm">
+    <div class="who-wandou-right ng-animate-fadedown" ng-show="isShowEditForm">
         <h1 class="uk-article-title">{{wandouInfo.name}}</h1>
         <form class="uk-form uk-form-horizontal" name="wnadouInfoForm">
             <div class="uk-form-row">
@@ -116,7 +129,13 @@
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">星座</label>
                 <div class="uk-form-controls">
-                    <input type="text" ng-model="wandouInfo.xingzuo" name="xingzuo">
+                    <select ui-select2 ng-model="wandouInfo.xingzuo" data-placeholder="Pick a number">
+                        <option value=""></option>
+                        <option value="one">One</option>
+                        <option value="two">Second</option>
+                        <option value="three">Third</option>
+                    </select>
+                    <!-- <input type="text" ng-model="wandouInfo.xingzuo" name="xingzuo"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -153,5 +172,21 @@
             </div>
         </form>
     </div>
+
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'wandoujiawho'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
 </div>
 
