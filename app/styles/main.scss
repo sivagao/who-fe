@@ -27,7 +27,9 @@ body{
 }
 
 .who-container{
-    width: 1178px;
+    /*width: 1178px;*/
+    width: 100%;
+    padding: 0 10px;
     margin: 42px auto;
     h2{
         font-size: 26px;
@@ -41,6 +43,9 @@ body{
 .who-card-page{
     background: #fff;
     padding: 55px 100px;
+    @media (max-width: 800px) {
+        padding: 30px 20px;
+    }
     h2{
         line-height: 26px;
         font-size: 20px;
@@ -56,6 +61,23 @@ body{
             }
         }
     }
+    @media (max-width: 800px) {
+        .uk-description-list-horizontal > dt {
+            display: inline-block;
+        }
+        .uk-description-list-horizontal > dd {
+            float: none;
+            display: inline-block;
+        }
+        .who-columns-2 > div, .who-columns-2 > dl {
+            width: auto;
+            margin: 5px 0;
+            display: inline;
+        }
+        .who-card-page .uk-description-list-horizontal > dd::after {
+            content: " \00a0\00a0\/\00a0\00a0 ";
+        }
+    }
 }
 
 .who-wandou-left{
@@ -69,6 +91,15 @@ body{
 }
 .who-wandou-right{
     float: left;
+}
+@media (max-width: 800px) {
+    .who-wandou-left{
+        float: none;
+    }
+    .who-wandou-right {
+        float: none;
+        margin-top: 20px;
+    }
 }
 
 .who-home{
@@ -153,6 +184,7 @@ body{
 
 .who-color-blocks {
     margin-left: -34px;
+
     li{
         float: left;
         margin: 22px 0;
@@ -168,6 +200,7 @@ body{
                 text-align: center;
                 color: #fff;
                 display: table;
+
                 .who-placehold-item-title {
                     display: table-cell;
                     vertical-align: middle;
@@ -183,6 +216,19 @@ body{
                     width: 100%;
                     left: 0;
                 }
+                @media (max-width: 800px) {
+                    border-radius: 45px;
+                    width: 126px;
+                    height: 126px;
+
+                    .who-placehold-item-title {
+                        line-height: 20px;
+                        font-size: 15px;
+                    }
+                    .who-placehold-item-subtitle {
+                        font-size: 12px;
+                    }
+                }
             }
             p{
                 line-height: 40px;
@@ -190,6 +236,14 @@ body{
                 margin: 0;
                 color: #999;
             }
+        }
+    }
+
+    @media (max-width: 800px) {
+        margin-left: -24px;
+        li{
+            margin: 12px 0;
+            margin-left: 24px;
         }
     }
     li:nth-child(8n) {
@@ -294,6 +348,7 @@ body{
     font-size: 14px;
     border-bottom: 1px solid #DDD;
     min-width: 800px;
+
     &.fixed{
         position: fixed;
         z-index: 1000;
@@ -319,9 +374,6 @@ body{
     }
     .uk-navbar-brand{
         border:none;
-    }
-    .home-hotquery{
-        display: none;
     }
     .home-navbar-export{
         .uk-button{
@@ -352,6 +404,19 @@ body{
             background: none;
             line-height: 21px;
             width: 200px;
+        }
+    }
+    @media (max-width: 800px) {
+        min-width: 460px;
+        .uk-navbar-brand{
+            background: url(http://img.wdjimg.com/who/logo.png) no-repeat no-repeat;
+            margin: 21px 5px;
+            img{
+                display: none;
+            }
+        }
+        .navbar-avatar{
+            padding: 21px 5px!important;
         }
     }
 }
