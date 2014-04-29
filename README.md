@@ -15,3 +15,9 @@
 ![截图展示 - Person View](http://img.wdjimg.com/who/who-person1.png)
 ![截图展示 - PA PRODUCT](http://img.wdjimg.com/who/who-function.png)
 
+## A case of ionic for mobile
+![截图展示 - PA](http://img.wdjimg.com/who/ionic-home.png)
+![截图展示 - Person View](http://img.wdjimg.com/who/ionic-offcanvas.png)
+![截图展示 - PA PRODUCT](http://img.wdjimg.com/who/ionic-person.png)
+![截图展示 - PA PRODUCT](http://img.wdjimg.com/who/ionic-area.png)
+
