@@ -4,8 +4,8 @@
     <div>
         <h2>Product Areas(PA)</h2>
         <ul class="who-color-blocks uk-list uk-clearfix">
-            <li ng-repeat="item in areaList">
-                <a ng-href="/area/{{item.name}}">
+            <li class="repeater" ng-repeat="item in areaList">
+                <a ng-href="/#/area/{{item.name}}">
                     <div class="who-placehold-item front">
                         <b class="who-placehold-item-title">
                             {{item.name}}
@@ -24,8 +24,8 @@
     <div>
         <h2>Product</h2>
         <ul class="who-color-blocks uk-list uk-clearfix">
-            <li ng-repeat="item in productList">
-                <a ng-href="/product/{{item.id}}">
+            <li class='fx-fade-down fx-easing-bounce' ng-repeat="item in productList">
+                <a ng-href="/#/product/{{item.id}}">
                     <div class="who-placehold-item front">
                         <b class="who-placehold-item-title">{{item.name}}</b>
                     </div>
@@ -42,7 +42,7 @@
         <h2>豌豆展台</h2>
         <ul class="uk-list uk-clearfix who-avatar-list">
             <li ng-repeat="item in personList|limitTo: 8">
-                <a href="/wandou/{{item.id}}">
+                <a href="/#/wandou/{{item.id}}">
                     <img ng-src="{{item.img|checkImg}}">
                     <span class="label">新豌豆</span>
                 </a>

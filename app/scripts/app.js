@@ -13,7 +13,7 @@ var app = angular.module('whoApp', [
     'whoApp.filters',
     'imageupload'
 ]);
-
+//     'fx.animations'
 // development
 // app.constant('ServerUrl', '//localhost:3000');
 // app.constant('ApiUrl', '//localhost:3000/api/1');
@@ -30,13 +30,12 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
     $httpProvider.defaults.withCredentials = true;
 
     // Enable HTML5 mode. (Remove the `#` from Url)
-    $locationProvider.html5Mode(true);
+    // $locationProvider.html5Mode(true);
 
     // Routing.
     $routeProvider
         .when('/', {
             templateUrl: '/views/home.html',
-            requireAuthentication: false,
             controller: 'homeCtrl',
             resolve: {
                 load: ['dataService',
@@ -45,6 +44,10 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
                     }
                 ]
             }
+        })
+        .when('/login', {
+            templateUrl: '/views/login.html',
+            controller: 'loginCtrl'
         })
         .when('/wandou/:name', {
             templateUrl: '/views/wandou.html',
@@ -90,8 +93,13 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
             redirectTo: '/',
             requireAuthentication: false
         });
-}).run(function($rootScope, $location) {
+}).run(function($rootScope, $location, $http) {
     $rootScope.$on('$routeChangeSuccess', function() {
+        $http.get('/api/v1/current_user', {
+            cache: true
+        }).then(function(resp) {
+            $rootScope.currentUser = resp.data;
+        }, function() {});
         // run some code to do your animations
     });
 });

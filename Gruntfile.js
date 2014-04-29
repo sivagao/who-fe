@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         },
         connect: {
             options: {
-                port: 8080,
+                port: 8300,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: '0.0.0.0',
                 livereload: 35731,
@@ -81,9 +81,13 @@ module.exports = function(grunt) {
                     host: 'who.wandoulabs.com',
                     changeOrigin: true,
                     headers: {
-                        cookie: 'user="eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1397033969|a2a5019fda6ccfa273d09ffc03eb97b6ae39e02b"',
+                        cookie: 'user="eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1398245626|1c68c3b6e4d397dd4b0d630993efe029e6aeab02"',
                         host: 'who.wandoulabs.com'
                     }
+                }, {
+                    context: '/**',
+                    host: 'www.wandoujia.com',
+                    changeOrigin: true
                 }]
             },
             test: {

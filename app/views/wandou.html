@@ -19,13 +19,13 @@
     <div class="who-wandou-right ng-animate-fadedown" ng-show="!isShowEditForm">
         <h1 class="uk-article-title">{{wandouInfo.name}}  {{wandouInfo.id}}</h1>
         <p class="uk-article-lead uk-article-meta">
-            {{wandouInfo.function||"这里是描述"}}
+            {{wandouInfo.function}}
         </p>
         <h2>
             职责
         </h2>
         <p>
-            {{wandouInfo.objective || "据说没有用的代码会被删掉，请填写你所负责的事情。" }}
+            {{wandouInfo.objective || "ಥ_ಥ，他还没填写他所负责的事情。" }}
         </p>
 
         <h2>
@@ -59,7 +59,11 @@
                 <dt>毕业学校</dt>
                 <dd>{{wandouInfo.school}}</dd>
                 <dt>社交帐号</dt>
-                <dd ng-bind-html="wandouInfo.socialStr"></dd>
+                <dd>
+                    <span ng-repeat="item in wandouInfo.socials">
+                        <a href="{{item.val}}">{{item.key}}</a>
+                    </span>&nbsp;&nbsp;&nbsp;
+                </dd>
             </dl>
         </div>
 
@@ -67,7 +71,7 @@
             <h2>Manager</h2>
             <ul class="uk-list uk-clearfix who-avatar-list">
                 <li>
-                    <a ng-href="/wandou/{{wandouInfo.manager.id}}">
+                    <a ng-href="/#/wandou/{{wandouInfo.manager.id}}">
                         <img alt="{{wandouInfo.manager.name}}"
                             ng-src="{{wandouInfo.manager.img|checkImg}}">
                     </a>
@@ -93,17 +97,16 @@
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-t">工作描述</label>
                 <div class="uk-form-controls">
-                    <textarea cols="30" rows="5" ng-model="wandouInfo.desc"></textarea>
+                    <textarea cols="30" rows="5" ng-model="wandouInfo.objective"></textarea>
                 </div>
             </div>
-            <div class="uk-form-row">
+            <!-- <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">Function</label>
                 <div class="uk-form-controls">
                     <select ui-select2 ng-model="wandouInfo.function" data-placeholder="选择你的Function">
                         <option value=""></option>
                         <option ng-repeat="function in functionList" value="{{function}}">{{function}}</option>
                     </select>
-                    <!-- <input type="text" name="job" ng-model="wandouInfo.function"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -113,7 +116,6 @@
                         <option value=""></option>
                         <option ng-repeat="person in personList" value="{{person.id}}">{{person.id}}</option>
                     </select>
-                    <!-- <input type="text" ng-model="wandouInfo.manager" name="manager"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -123,7 +125,6 @@
                         <option value=""></option>
                         <option ng-repeat="productArea in productAreaList" value="{{productArea}}">{{productArea}}</option>
                     </select>
-                    <!-- <input type="text" ng-model="wandouInfo.PA" name="team"> -->
                 </div>
             </div>
             <div class="uk-form-row">
@@ -131,7 +132,7 @@
                 <div class="uk-form-controls">
                     <input type="text" ng-model="wandouInfo.mail" name="mail">
                 </div>
-            </div>
+            </div> -->
             <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">电话</label>
                 <div class="uk-form-controls">
@@ -164,20 +165,20 @@
                     <input type="text" ng-model="wandouInfo.school" name="school">
                 </div>
             </div>
-            <!-- <div class="uk-form-row">
+            <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">社交帐号</label>
                 <div class="uk-form-controls">
-                    <div ng-repeat="item in wandouInfo.socialArr">
-                        <input type="text" class="short-input" ng-model="wandouInfo.socialArr[$index][0]">
-                        <input type="text" class="long-input" ng-model="wandouInfo.socialArr[$index][1]">
+                    <div ng-repeat="item in wandouInfo.socials" class="who-social-row">
+                        <input type="text" class="short-input" ng-model="wandouInfo.socials[$index].type">
+                        <input type="text" class="long-input" ng-model="wandouInfo.socials[$index].val">
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="uk-form-row">
+            </div>
+            <div class="uk-form-row">
                 <div class="uk-form-controls">
-                    <a ng-click="wandouInfo.socialArr.push([])" class="uk-button">添加一个社交帐号</a>
+                    <a ng-click="wandouInfo.socials.push({type:'', val:''})" class="uk-button">添加一个社交帐号</a>
                 </div>
-            </div> -->
+            </div>
             <div class="uk-form-row">
                 <div class="uk-form-controls">
                     <a ng-click="updateWandouInfoHandler()" class="uk-button who-primary-btn">完成</a>

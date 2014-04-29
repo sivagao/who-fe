@@ -13,8 +13,8 @@
         <h2>Leader</h2>
         <ul class="uk-list uk-clearfix who-avatar-list">
             <li>
-                <a ng-href="/wandou/{{areaInfo.owner.id}}">
-                    <img src="{{areaInfo.owner.img |checkImg}}"
+                <a ng-href="/#/wandou/{{areaInfo.owner.id}}">
+                    <img ng-src="{{areaInfo.owner.img |checkImg}}"
                         alt="{{areaInfo.owner.name}}">
                 </a>
                 <p>{{areaInfo.owner.name}}</p>
@@ -25,7 +25,7 @@
         <div>
             <ul class="who-color-blocks uk-list uk-clearfix">
             <li ng-repeat="item in areaInfo.products">
-                    <a ng-href="/product/{{item.id}}">
+                    <a ng-href="/#/product/{{item.id}}">
                         <div class="who-placehold-item front">
                             <b class="who-placehold-item-title">{{item.name}}</b>
                         </div>
@@ -40,9 +40,8 @@
         <h2>组内成员</h2>
         <ul class="uk-list uk-clearfix who-avatar-list">
             <li ng-repeat="item in areaInfo.members">
-                <a ng-href="/wandou/{{item.id}}">
-                    <img src="{{item.img |checkImg}}"
-                        alt="{{item.name}}">
+                <a ng-href="/#/wandou/{{item.id}}">
+                    <img ng-src="{{item.img |checkImg}}" alt="{{item.name}}">
                 </a>
                 <p>{{item.name}}</p>
             </li>

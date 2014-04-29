@@ -4,14 +4,16 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <title>继续找豌豆</title>
+    <title>找豌豆 - Wandoulabs</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 
+    <link rel="stylesheet" href="http://s.wdjimg.com/account/stylesheets/6f594a05.style.css">
+
+    <!-- build:css(.tmp) /styles/index.css -->
     <link rel="stylesheet" href="/components/select2/select2.css">
-    <!-- build:css(.tmp) /styles/main.css -->
     <link rel="stylesheet" href="/styles/main.css">
     <!-- endbuild -->
 </head>
@@ -45,28 +47,22 @@
                 <!-- <div class="who-navbar-content home-navbar-export">
                     <button class="uk-button"><i class="uk-icon-download"></i>导出所有豌豆通讯录.csv</button>
                 </div> -->
-                <a class="who-navbar-content navbar-avatar" ng-href="/wandou/{{currentUser.id}}">
+                <a class="who-navbar-content navbar-avatar" ng-href="/#/wandou/{{currentUser.id}}">
                     <img ng-src="{{currentUser.img}}" alt="{{currentUser.name}}">
                     <span>{{currentUser.name}}</span>
                 </a>
             </div>
         </nav>
-        <!-- <div ng-include="'views/menu/_MenuView.html'"></div> -->
+        <!-- <div class="who-container" ng-view></div> -->
         <div class="who-container" autoscroll ng-view></div>
     </div>
 
+    <!-- build:js /scripts/framework.js -->
     <script src="/components/jquery/jquery.js"></script>
     <script src="/components/select2/select2.js"></script>
     <script src="/components/angular/angular.js"></script>
     <script src="/components/angular-ui-select2/src/select2.js"></script>
-
-    <!-- build:js /scripts/plugins.js -->
     <script src="/components/lodash/lodash.js"></script>
-    <script src="/components/select2/js/dropdown.js"></script>
-    <script src="/components/holder.js"></script>
-    <script src="/components/sass-bootstrap/js/collapse.js"></script>
-    <script src="/components/sass-bootstrap/js/transition.js"></script>
-    <script src="/components/sass-bootstrap/js/dropdown.js"></script>
     <!-- endbuild -->
 
     <!-- build:js /scripts/modules.js -->
@@ -77,6 +73,17 @@
     <script src="/components/angular-animate/angular-animate.js"></script>
     <script src="/components/angular-touch/angular-touch.js"></script>
     <!-- endbuild -->
-    <script src="/components/requirejs/require.js" data-main="/scripts/main.js"></script>
+
+    <!-- build:js /scripts/app.js -->
+    <script src="/scripts/imageupload.js"></script>
+    <script src="/scripts/directives.js"></script>
+    <script src="/scripts/services.js"></script>
+    <script src="/scripts/controllers.js"></script>
+    <script src="/scripts/filters.js"></script>
+    <script src="/scripts/app.js"></script>
+    <!-- endbuild -->
+    <script type="text/javascript">
+        angular.bootstrap(document, ['whoApp']);
+    </script>
 </body>
 </html>

@@ -1,0 +1,2572 @@
+[4mInitializing[24m
+Command-line options: [36m--verbose[39m
+
+Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+
+[1mRegistering Gruntfile tasks.[22m
+
+[1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Loading "autoprefixer.js" tasks...[32mOK[39m
++ [36mautoprefixer[39m
+
+[1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Loading "concurrent.js" tasks...[32mOK[39m
++ [36mconcurrent[39m
+
+[1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Loading "clean.js" tasks...[32mOK[39m
++ [36mclean[39m
+
+[1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Loading "compass.js" tasks...[32mOK[39m
++ [36mcompass[39m
+
+[1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Loading "concat.js" tasks...[32mOK[39m
++ [36mconcat[39m
+
+[1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Loading "connect.js" tasks...[32mOK[39m
++ [36mconnect[39m
+
+[1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Loading "copy.js" tasks...[32mOK[39m
++ [36mcopy[39m
+
+[1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Loading "cssmin.js" tasks...[32mOK[39m
++ [36mcssmin[39m
+
+[1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Loading "htmlmin.js" tasks...[32mOK[39m
++ [36mhtmlmin[39m
+
+[1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Loading "imagemin.js" tasks...[32mOK[39m
++ [36mimagemin[39m
+
+[1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Loading "jshint.js" tasks...[32mOK[39m
++ [36mjshint[39m
+
+[1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Loading "uglify.js" tasks...[32mOK[39m
++ [36muglify[39m
+
+[1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Loading "watch.js" tasks...[32mOK[39m
++ [36mwatch[39m
+
+[1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Loading "cdnify.js" tasks...[32mOK[39m
++ [36mcdnify[39m
+
+[1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Loading "ngmin.js" tasks...[32mOK[39m
++ [36mngmin[39m
+
+[1mRegistering "grunt-rev" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-rev/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-rev/package.json...[32mOK[39m
+Loading "rev.js" tasks...[32mOK[39m
++ [36mrev[39m
+
+[1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Loading "svgmin.js" tasks...[32mOK[39m
++ [36msvgmin[39m
+
+[1mRegistering "grunt-usemin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-usemin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-usemin/package.json...[32mOK[39m
+Loading "usemin.js" tasks...[32mOK[39m
++ [36musemin[39m, [36museminPrepare[39m
+
+[1mRegistering "grunt-angular-templates" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-angular-templates/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-angular-templates/package.json...[32mOK[39m
+Loading "angular-templates.js" tasks...[32mOK[39m
++ [36mngtemplates[39m
+
+[1mRegistering "grunt-connect-proxy" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-connect-proxy/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-connect-proxy/package.json...[32mOK[39m
+Loading "connect_proxy.js" tasks...[32mOK[39m
++ [36mconfigureProxies[39m
+
+[1mRegistering "grunt-docco2" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-docco2/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-docco2/package.json...[32mOK[39m
+Loading "docco.js" tasks...[32mOK[39m
++ [36mdocco[39m
+
+[1mRegistering "grunt-devcode" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-devcode/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-devcode/package.json...[32mOK[39m
+Loading "devcode.js" tasks...[32mOK[39m
++ [36mdevcode[39m
+
+[1mRegistering "grunt-karma" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-karma/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-karma/package.json...[32mOK[39m
+Loading "grunt-karma.js" tasks...[32mOK[39m
++ [36mkarma[39m
+
+[1mRegistering "grunt-plato" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-plato/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-plato/package.json...[32mOK[39m
+Loading "plato.js" tasks...[32mOK[39m
++ [36mplato[39m
+Reading .jshintrc...[32mOK[39m
+Parsing .jshintrc...[32mOK[39m
+Initializing config...[32mOK[39m
+Loading "Gruntfile.js" tasks...[32mOK[39m
++ [36manalysis[39m, [36mbuild[39m, [36mdefault[39m, [36mdocs[39m, [36mrequirejs[39m, [36mserver[39m, [36mtest[39m
+
+Running tasks: [36mrequirejs[39m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+[33mWarning: Maximum call stack size exceeded Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2014-04-23 09:50:51 UTC)
+loading tasks  5ms  ▇▇ 4%
+requirejs      3ms  ▇▇ 2%
+Total 123ms
+[4mInitializing[24m
+Command-line options: [36m--verbose[39m
+
+Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+
+[1mRegistering Gruntfile tasks.[22m
+
+[1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Loading "autoprefixer.js" tasks...[32mOK[39m
++ [36mautoprefixer[39m
+
+[1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Loading "concurrent.js" tasks...[32mOK[39m
++ [36mconcurrent[39m
+
+[1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Loading "clean.js" tasks...[32mOK[39m
++ [36mclean[39m
+
+[1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Loading "compass.js" tasks...[32mOK[39m
++ [36mcompass[39m
+
+[1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Loading "concat.js" tasks...[32mOK[39m
++ [36mconcat[39m
+
+[1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Loading "connect.js" tasks...[32mOK[39m
++ [36mconnect[39m
+
+[1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Loading "copy.js" tasks...[32mOK[39m
++ [36mcopy[39m
+
+[1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Loading "cssmin.js" tasks...[32mOK[39m
++ [36mcssmin[39m
+
+[1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Loading "htmlmin.js" tasks...[32mOK[39m
++ [36mhtmlmin[39m
+
+[1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Loading "imagemin.js" tasks...[32mOK[39m
++ [36mimagemin[39m
+
+[1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Loading "jshint.js" tasks...[32mOK[39m
++ [36mjshint[39m
+
+[1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Loading "uglify.js" tasks...[32mOK[39m
++ [36muglify[39m
+
+[1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Loading "watch.js" tasks...[32mOK[39m
++ [36mwatch[39m
+
+[1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Loading "cdnify.js" tasks...[32mOK[39m
++ [36mcdnify[39m
+
+[1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Loading "ngmin.js" tasks...[32mOK[39m
++ [36mngmin[39m
+
+[1mRegistering "grunt-rev" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-rev/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-rev/package.json...[32mOK[39m
+Loading "rev.js" tasks...[32mOK[39m
++ [36mrev[39m
+
+[1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Loading "svgmin.js" tasks...[32mOK[39m
++ [36msvgmin[39m
+
+[1mRegistering "grunt-usemin" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-usemin/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-usemin/package.json...[32mOK[39m
+Loading "usemin.js" tasks...[32mOK[39m
++ [36musemin[39m, [36museminPrepare[39m
+
+[1mRegistering "grunt-angular-templates" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-angular-templates/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-angular-templates/package.json...[32mOK[39m
+Loading "angular-templates.js" tasks...[32mOK[39m
++ [36mngtemplates[39m
+
+[1mRegistering "grunt-connect-proxy" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-connect-proxy/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-connect-proxy/package.json...[32mOK[39m
+Loading "connect_proxy.js" tasks...[32mOK[39m
++ [36mconfigureProxies[39m
+
+[1mRegistering "grunt-docco2" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-docco2/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-docco2/package.json...[32mOK[39m
+Loading "docco.js" tasks...[32mOK[39m
++ [36mdocco[39m
+
+[1mRegistering "grunt-devcode" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-devcode/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-devcode/package.json...[32mOK[39m
+Loading "devcode.js" tasks...[32mOK[39m
++ [36mdevcode[39m
+
+[1mRegistering "grunt-karma" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-karma/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-karma/package.json...[32mOK[39m
+Loading "grunt-karma.js" tasks...[32mOK[39m
++ [36mkarma[39m
+
+[1mRegistering "grunt-plato" local Npm module tasks.[22m
+Reading /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-plato/package.json...[32mOK[39m
+Parsing /Users/ghlndsl/projects/diy_wdj/who-fe/node_modules/grunt-plato/package.json...[32mOK[39m
+Loading "plato.js" tasks...[32mOK[39m
++ [36mplato[39m
+Reading .jshintrc...[32mOK[39m
+Parsing .jshintrc...[32mOK[39m
+Initializing config...[32mOK[39m
+Loading "Gruntfile.js" tasks...[32mOK[39m
++ [36manalysis[39m, [36mbuild[39m, [36mdefault[39m, [36mdocs[39m, [36mrequirejs[39m, [36mserver[39m, [36mtest[39m
+
+Running tasks: [36mrequirejs[39m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+
+[4mRunning "requirejs" task[24m
+[33mWarning: Maximum call stack size exceeded Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2014-04-23 09:51:06 UTC)
+loading tasks  4ms  ▇▇ 3%
+requirejs      3ms  ▇▇ 3%
+Total 117ms
