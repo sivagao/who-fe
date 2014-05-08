@@ -73,6 +73,18 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
                 ]
             }
         })
+        .when('/function/:name', {
+            templateUrl: '/views/function.html',
+            controller: 'functionCtrl',
+            resolve: {
+                load: ['dataService', '$route',
+                    function(dataService, $route) {
+                        // $routeParams assign after route is changed.
+                        return dataService.loadFunction($route.current.params.name);
+                    }
+                ]
+            }
+        })
         .when('/product/:name', {
             templateUrl: '/views/product.html',
             controller: 'productCtrl',

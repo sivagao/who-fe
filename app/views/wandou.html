@@ -1,4 +1,4 @@
-<div class="who-card-page uk-clearfix">
+<div class="who-card-page uk-clearfix page-wandou">
     <div class="who-wandou-left">
         <div ng-show="!isShowEditForm">
             <img ng-src="{{wandouInfo.img | checkImg}}" alt="">
@@ -61,7 +61,7 @@
                 <dt>社交帐号</dt>
                 <dd>
                     <span ng-repeat="item in wandouInfo.socials">
-                        <a href="{{item.val}}">{{item.key}}</a>
+                        <a href="{{item.val}}" target="_blank">{{item.type}}</a>
                     </span>&nbsp;&nbsp;&nbsp;
                 </dd>
             </dl>

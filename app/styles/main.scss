@@ -27,10 +27,12 @@ body{
 }
 
 .who-container{
-    /*width: 1178px;*/
-    width: 100%;
-    padding: 0 10px;
+    width: 1178px;
     margin: 42px auto;
+    @media (max-width: 800px) {
+        padding: 0 10px;
+        width: 100%;
+    }
     h2{
         font-size: 26px;
         line-height: 42px;
@@ -43,8 +45,14 @@ body{
 .who-card-page{
     background: #fff;
     padding: 55px 100px;
+    &.page-wandou{
+        padding: 55px 40px;
+    }
+    width: 980px;
+    margin: 0 auto;
     @media (max-width: 800px) {
         padding: 30px 20px;
+        width: auto;
     }
     h2{
         line-height: 26px;
@@ -81,7 +89,7 @@ body{
 }
 
 .who-wandou-left{
-    margin-right: 75px;
+    margin-right: 55px;
     float: left;
     img{
         width: 126px;
@@ -200,6 +208,8 @@ body{
                 text-align: center;
                 color: #fff;
                 display: table;
+                word-wrap: break-word;
+                word-break: break-word;
 
                 .who-placehold-item-title {
                     display: table-cell;
@@ -432,7 +442,17 @@ body{
 
 .who-primary-btn{
     color: #fff;
-    background: #3BAA24l
+}
+
+
+footer {
+margin-top: 45px;
+padding: 35px 0 36px;
+border-top: 1px solid #E5E5E5;
+text-align: center;
+    a{
+        color: #3BAA24;
+    }
 }
 
 // Generic

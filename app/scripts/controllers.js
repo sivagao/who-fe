@@ -22,6 +22,7 @@ angular.module('whoApp.controllers', ['whoApp.services'])
         function($scope, $rootScope, $timeout, $http, dataService, $filter) {
             $scope.areaList = dataService.areaList;
             $scope.productList = dataService.productList;
+            $scope.functionList = dataService.functionList;
             _.each(dataService.personList, function(item) {
                 item.img = $filter('checkImg2')(item.img);
             });
@@ -95,6 +96,11 @@ angular.module('whoApp.controllers', ['whoApp.services'])
     .controller('productCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams', 'dataService',
         function($scope, $rootScope, $timeout, $http, $routeParams, dataService) {
             $scope.productInfo = dataService.productDict[$routeParams.name];
+        }
+    ])
+    .controller('functionCtrl', ['$scope', '$rootScope', '$timeout', '$http', '$routeParams', 'dataService',
+        function($scope, $rootScope, $timeout, $http, $routeParams, dataService) {
+            $scope.functionInfo = dataService.functionDict[$routeParams.name];
         }
     ])
     .controller('navbarCtrl', ['$scope', '$rootScope', '$location', '$http',

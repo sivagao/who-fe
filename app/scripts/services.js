@@ -10,6 +10,7 @@ angular.module('whoApp.services', [])
             return {
                 personDict: {},
                 productDict: {},
+                functionDict: {},
                 login: function(un, pwd) {
                     return $http.post('/api/v1/login', {
                         username: un,
@@ -36,11 +37,13 @@ angular.module('whoApp.services', [])
                         return $q.all([
                             $http.get('/api/v1/list/area'),
                             $http.get('/api/v1/list/product'),
-                            $http.get('/api/v1/list/person')
+                            $http.get('/api/v1/list/person'),
+                            $http.get('/api/v1/list/function')
                         ]).then(function(results) {
                             _self.areaList = results[0].data;
                             _self.productList = results[1].data;
                             _self.personList = results[2].data;
+                            _self.functionList = results[3].data;
                             // _self.personDict = transList2Dict(_self.personList, 'id');
                             return;
                             // get all data and then json it!
@@ -87,6 +90,16 @@ angular.module('whoApp.services', [])
                             cache: true
                         }).then(function(resp) {
                             _self.productDict[name] = resp.data;
+                        }, function() {});
+                    }
+                },
+                loadFunction: function(name) {
+                    if (_.isEmpty(this.functionDict[name])) {
+                        var _self = this;
+                        return $http.get('/api/v1/function/' + name, {
+                            cache: true
+                        }).then(function(resp) {
+                            _self.functionDict[name] = resp.data;
                         }, function() {});
                     }
                 },

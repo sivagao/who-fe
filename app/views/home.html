@@ -21,13 +21,31 @@
     </div>
 
     <!-- all products -->
-    <div>
+    <!-- <div>
         <h2>Product</h2>
         <ul class="who-color-blocks uk-list uk-clearfix">
             <li class='fx-fade-down fx-easing-bounce' ng-repeat="item in productList">
                 <a ng-href="/#/product/{{item.id}}">
                     <div class="who-placehold-item front">
                         <b class="who-placehold-item-title">{{item.name}}</b>
+                    </div>
+                    <div class="who-placehold-item back" ng-hide="true">
+                        <p>{{item.objective}}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div> -->
+
+    <!-- all products -->
+    <div>
+        <h2>Function</h2>
+        <ul class="who-color-blocks uk-list uk-clearfix">
+            <li class='fx-fade-down fx-easing-bounce' ng-repeat="item in functionList">
+                <a ng-href="/#/function/{{item.id}}">
+                    <div class="who-placehold-item front">
+                        <b class="who-placehold-item-title">{{item.name}}</b>
+                        <span class="who-placehold-item-subtitle">{{item.number}}成员</span>
                     </div>
                     <div class="who-placehold-item back" ng-hide="true">
                         <p>{{item.objective}}</p>
