@@ -12,7 +12,6 @@
                         <h3>{{item.name}}</h3>
                         <h4>Product Team</h4>
                         <p>{{item.objective}}</p>
-                        <p>{{item.pm}}, {{item.tl}}</p>
                     </div>
                 </a>
             </li>
@@ -33,7 +32,6 @@
                         <h3>{{item.name}}</h3>
                         <h4>Product Team</h4>
                         <p>{{item.product}}</p>
-                        <p>{{item.pm}}, {{item.tl}}</p>
                     </div>
                 </a>
             </li>
@@ -46,7 +44,8 @@
             <li ng-repeat="item in searchInfo.person" class="uk-clearfix">
                 <a ng-href="/#/wandou/{{item.id}}">
                     <div class="block-img">
-                        <img ng-src="{{item.img | checkImg}}" alt="{{item.name}}">
+                        <div class="img" style="background-image:url({{item.img|checkImg}})"></div>
+                        <!-- <img ng-src="{{item.img | checkImg}}" alt="{{item.name}}"> -->
                     </div>
                     <div class="block-info">
                         <h3>{{item.name}}</h3>

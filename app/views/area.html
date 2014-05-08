@@ -14,8 +14,9 @@
         <ul class="uk-list uk-clearfix who-avatar-list">
             <li>
                 <a ng-href="/#/wandou/{{areaInfo.owner.id}}">
-                    <img ng-src="{{areaInfo.owner.img |checkImg}}"
-                        alt="{{areaInfo.owner.name}}">
+                    <div class="img" style="background-image:url({{areaInfo.owner.img|checkImg}})"></div>
+                    <!-- <img ng-src="{{areaInfo.owner.img |checkImg}}"
+                        alt="{{areaInfo.owner.name}}"> -->
                 </a>
                 <p>{{areaInfo.owner.name}}</p>
             </li>
@@ -41,7 +42,8 @@
         <ul class="uk-list uk-clearfix who-avatar-list">
             <li ng-repeat="item in areaInfo.members">
                 <a ng-href="/#/wandou/{{item.id}}">
-                    <img ng-src="{{item.img |checkImg}}" alt="{{item.name}}">
+                    <div class="img" style="background-image:url({{item.img|checkImg}})"></div>
+                    <!-- <img ng-src="{{item.img |checkImg}}" alt="{{item.name}}"> -->
                 </a>
                 <p>{{item.name}}</p>
             </li>

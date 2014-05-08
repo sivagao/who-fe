@@ -23,7 +23,8 @@
                 <ul class="uk-list uk-clearfix who-avatar-list">
                     <li>
                         <a ng-href="/#/wandou/{{productInfo.pm.id}}">
-                            <img ng-src="{{productInfo.pm.img|checkImg}}" alt="{{productInfo.pm.name}}">
+                            <!-- <img ng-src="{{productInfo.pm.img|checkImg}}" alt="{{productInfo.pm.name}}"> -->
+                            <div class="img" style="background-image:url({{productInfo.pm.img|checkImg}})"></div>
                         </a>
                         <p>{{productInfo.pm.name}}</p>
                     </li>
@@ -36,7 +37,8 @@
                 <ul class="uk-list uk-clearfix who-avatar-list">
                     <li>
                         <a ng-href="/#/wandou/{{productInfo.tl.id}}">
-                            <img ng-src="{{productInfo.tl.img|checkImg}}" alt="{{productInfo.tl.name}}">
+                            <!-- <img ng-src="{{productInfo.tl.img|checkImg}}" alt="{{productInfo.tl.name}}"> -->
+                            <div class="img" style="background-image:url({{productInfo.tl.img|checkImg}})"></div>
                         </a>
                         <p>{{productInfo.tl.name}}</p>
                     </li>

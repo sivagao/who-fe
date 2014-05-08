@@ -132,8 +132,8 @@ angular.module('whoApp.services', [])
             return {}
         }
     ])
-    .factory('whoHttpInterceptor', ['$q', '$alert', '$location',
-        function($q, $alert, $location) {
+    .factory('whoHttpInterceptor', ['$q', '$alert', '$location', '$rootScope',
+        function($q, $alert, $location, $rootScope) {
             return {
                 responseError: function(response) {
                     if (response.status === 403) {
@@ -147,8 +147,16 @@ angular.module('whoApp.services', [])
                             (response.config.url || '') + ', 接口出问题啦!'
                     });
                     return $q.reject(response);
-                }
+                },
 
+                request: function(config) {
+                    if ($rootScope.currentUser) {
+                        if (config.url.indexOf('?') === -1) {
+                            config.url += '?uid=' + $rootScope.currentUser.id;
+                        }
+                    }
+                    return config;
+                }
                 // check cofig,method == post,
                 // then alert.success to notice
                 // response: function(response) {

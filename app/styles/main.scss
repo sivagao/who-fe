@@ -59,6 +59,7 @@ body{
         font-size: 20px;
         color: #3BAA24;
         margin: 5px 0;
+        margin-top: 20px;
     }
     .who-columns-2{
         &>div,&>dl{
@@ -91,14 +92,19 @@ body{
 .who-wandou-left{
     margin-right: 55px;
     float: left;
-    img{
+    width: 150px;
+    overflow: hidden;
+    img, .img{
         width: 126px;
         height: 126px;
         border-radius: 45px;
+        background-size: cover;
+        background-position: 50%;
     }
 }
 .who-wandou-right{
     float: left;
+    width: 650px;
 }
 @media (max-width: 800px) {
     .who-wandou-left{
@@ -107,6 +113,7 @@ body{
     .who-wandou-right {
         float: none;
         margin-top: 20px;
+        width: auto;
     }
 }
 
@@ -125,11 +132,15 @@ body{
         a{
             display: block;
             position: relative;
-            img{
+            width: 126px;
+            height: 126px;
+            .img{
                 border-radius: 45px;
                 width: 126px;
                 height: 126px;
                 overflow: hidden;
+                background-size: cover;
+                background-position: 50%;
             }
             span{
                 position: absolute;
@@ -151,7 +162,6 @@ body{
     }
 }
 
-// search page
 .who-search-block{
     ul{
         list-style: none;
@@ -164,10 +174,12 @@ body{
         display: table;
         float: left;
         margin-bottom: 20px;
-        img{
+        .img{
             border-radius: 45px;
             width: 168px;
             height: 168px;
+            background-size: cover;
+            background-position: 50%;
         }
     }
     li a .block-color{
@@ -187,6 +199,28 @@ body{
     }
     .block-info {
         padding: 30px;
+    }
+    @media (max-width: 800px) {
+        .block-info{
+            padding: 0 20px;
+            width: 72%;
+        }
+        li a .block-color, li a .block-img .img{
+            border-radius: 15px;
+            width: 100px;
+            height: 100px;
+            max-width: 20%;
+        }
+        li a .block-color .who-placehold-item-title{
+            line-height: 20px;
+            font-size: 14px;
+        }
+        h3, .uk-h3 {
+            margin: 6px 0;
+        }
+        h4, .uk-h4 {
+            margin: 5px 0;
+        }
     }
 }
 

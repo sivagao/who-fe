@@ -1,7 +1,8 @@
 <div class="who-card-page uk-clearfix page-wandou">
     <div class="who-wandou-left">
         <div ng-show="!isShowEditForm">
-            <img ng-src="{{wandouInfo.img | checkImg}}" alt="">
+            <!-- <img ng-src="{{wandouInfo.img | checkImg}}" alt=""> -->
+            <div class="img" style="background-image:url({{wandouInfo.img|checkImg}})"></div>
             <p ng-show="currentUser.id===wandouInfo.id">
                 <a ng-click="isShowEditForm = !isShowEditForm"
                     class="uk-button who-btn who-wandou-update-btn">更新信息</a>
@@ -9,6 +10,7 @@
         </div>
         <div ng-show="isShowEditForm">
             <img ng-src="{{wandouInfo.img | checkImg}}" ng-show="!imageUpload">
+            <!-- <div class="img" ng-show="!imageUpload" style="background-image:url({{wandouInfo.img|checkImg}})"></div> -->
             <img ng-show="imageUpload"
                 type="{{imageUpload.file.type}}" ng-src="{{imageUpload.dataURL}}">
             <p>
@@ -44,9 +46,9 @@
         <div class="who-columns-2">
             <dl class="uk-description-list uk-description-list-horizontal">
                 <dt>邮箱</dt>
-                <dd>{{wandouInfo.mail}}</dd>
+                <dd><a href="mailto:{{wandouInfo.mail}}">{{wandouInfo.mail}}</a></dd>
                 <dt>电话</dt>
-                <dd>{{wandouInfo.phone}}</dd>
+                <dd><a href="tel:{{wandouInfo.phone}}">{{wandouInfo.phone}}</a></dd>
                 <dt>星座</dt>
                 <!-- zodiac -->
                 <dd>{{wandouInfo.xingzuo || '不告诉陌生人'}}</dd>
@@ -72,8 +74,9 @@
             <ul class="uk-list uk-clearfix who-avatar-list">
                 <li>
                     <a ng-href="/#/wandou/{{wandouInfo.manager.id}}">
-                        <img alt="{{wandouInfo.manager.name}}"
-                            ng-src="{{wandouInfo.manager.img|checkImg}}">
+                        <div class="img" style="background-image:url({{wandouInfo.manager.img|checkImg}})"></div>
+                        <!-- <img alt="{{wandouInfo.manager.name}}"
+                            ng-src="{{wandouInfo.manager.img|checkImg}}"> -->
                     </a>
                     <p>{{wandouInfo.manager.name}}</p>
                 </li>
@@ -192,6 +195,10 @@
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'wandoujiawho'; // required: replace example with your forum shortname
+            // var disqus_identifier = location.hash.replace('#/wandou/','');
+            // console.log(location.hash.replace('#/wandou/',''));
+            // var disqus_url = window.location.href;
+            // console.log(disqus_url);
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
