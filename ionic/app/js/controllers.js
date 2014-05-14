@@ -17,20 +17,38 @@ angular.module('whoApp.controllers', [])
 
     $scope.clearSearch = function() {
         $scope.searchKey = "";
-        return;
-        findAllEmployees();
+        if ($scope.mode === 'search') {
+            $scope.wandouList = _wandouList.splice(0, 20);
+            $scope.mode = 'normal';
+            // tell infiniteScroll to recalculate list length
+            $scope.$broadcast('scroll.infiniteScrollComplete');
+        }
     }
 
+    var isSearhcing = false;
     $scope.search = function() {
-        $ionicPopup.alert({
-            title: 'Demo',
-            content: '搜索功能还没跨域呢'
-        }).then(function(res) {
-            console.log('下次再试试?!');
+        if (!$scope.searchKey || isSearhcing) return;
+        isSearhcing = true;
+        dataService.query($scope.searchKey).then(function(resp) {
+            console.log(resp);
+            $scope.wandouList = _.filter(resp.data, function(item) {
+                return item.type === 'person';
+            });
+            $scope.mode = 'search';
+            isSearhcing = false;
+            // tell infiniteScroll to recalculate list length
+            $scope.$broadcast('scroll.infiniteScrollComplete');
         });
+        // $ionicPopup.alert({
+        //     title: 'Demo',
+        //     content: '搜索功能还没跨域呢'
+        // }).then(function(res) {
+        //     console.log('下次再试试?!');
+        // });
     };
 
     $scope.loadMore = function() {
+        if ($scope.mode === 'search') return;
         $scope.wandouList = $scope.wandouList.concat(_wandouList.splice(0, 10));
         if (_wandouList.length == 0) {
             $scope.noMoreItemsAvailable = true;
@@ -54,9 +72,6 @@ angular.module('whoApp.controllers', [])
             window.history.back();
             console.log('下次再试试?!');
         });
-    } else {
-        // $scope.wandouInfo.pic = dataService.getPic();
-        // $scope.wandouInfo.managerNick = dataService.getNick($scope.wandouInfo.manager);
     }
     $timeout(function() {
         $ionicLoading.hide();

@@ -5,13 +5,15 @@ angular.module('whoApp.services', [])
             areaDict: {},
             projectDict: {},
             functionDict: {},
+            query: function(word) {
+                return $http.get('/api/v1/query?word=' + word);
+            },
             loadWandous: function() {
                 var deferred = $q.defer();
                 if (_.isEmpty(this.wandouList)) {
                     var _self = this;
                     $http.get('/api/v1/list/person').then(function(resp) {
                         _self.wandouList = resp.data;
-                        console.log(resp.data);
                         deferred.resolve();
                     });
                 } else {
