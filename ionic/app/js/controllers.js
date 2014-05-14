@@ -44,7 +44,7 @@ angular.module('whoApp.controllers', [])
     $scope.hideBackButton = false;
     $scope.hideNavBar = false;
     $scope.wandouInfo = _.find(dataService.wandouList, function(wandouInfo) {
-        return wandouInfo.nick === $stateParams.name;
+        return wandouInfo.id === $stateParams.name;
     });
     if (!$scope.wandouInfo) {
         $ionicPopup.alert({
@@ -55,8 +55,8 @@ angular.module('whoApp.controllers', [])
             console.log('下次再试试?!');
         });
     } else {
-        $scope.wandouInfo.pic = dataService.getPic();
-        $scope.wandouInfo.managerNick = dataService.getNick($scope.wandouInfo.manager);
+        // $scope.wandouInfo.pic = dataService.getPic();
+        // $scope.wandouInfo.managerNick = dataService.getNick($scope.wandouInfo.manager);
     }
     $timeout(function() {
         $ionicLoading.hide();

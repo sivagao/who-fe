@@ -13,7 +13,7 @@
     <ion-content>
         <ion-list animation="slide-in-left">
             <ion-item ng-repeat="wandou in wandouList" type="item-text-wrap" href="#/wandou/{{wandou.id}}">
-                <img class="avatar" ng-src="{{wandou.img}}">
+                <img class="avatar" ng-src="{{wandou.img || 'http://img.wdjimg.com/who/avatar0.png'}}">
                 <h3>{{wandou.name}} / {{wandou.id}}</h3>
                 <p>{{wandou.function}} / {{wandou.hometown}} / {{wandou.school}} / {{wandou.edate}}</p>
             </ion-item>

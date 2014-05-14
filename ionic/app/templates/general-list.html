@@ -8,9 +8,9 @@
                 <p ng-switch-when="school">wow,他们都是校友！</p>
             </div>
             <ion-list>
-                <ion-item ng-repeat="wandou in listInfo.list" type="item-text-wrap" href="#/wandou/{{wandou.nick}}">
-                    <img class="avatar" src="pics/{{wandou.pic}}">
-                    <h3>{{wandou.name}} / {{wandou.nick}}</h3>
+                <ion-item ng-repeat="wandou in listInfo.list" type="item-text-wrap" href="#/wandou/{{wandou.id}}">
+                    <img class="avatar" ng-src="{{wandou.img || 'http://img.wdjimg.com/who/avatar0.png'}}">
+                    <h3>{{wandou.name}} / {{wandou.id}}</h3>
                     <p>{{wandou.function}} / {{wandou.hometown}} / {{wandou.school}} / {{wandou.edate}}</p>
                 </ion-item>
             </ion-list>
