@@ -63,6 +63,7 @@ border-radius: 100%;
 border: 1px solid #AAA;
 max-width: none;
 width: 64px;
+height: 64px;
 -webkit-transition: all .1s;
 transition: all .1s;
 }

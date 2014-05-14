@@ -48,8 +48,8 @@ angular.module('whoApp', ['ionic', 'whoApp.services', 'whoApp.controllers'])
         templateUrl: 'templates/area.html',
         controller: 'areaCtrl',
         resolve: {
-            load: function(dataService) {
-                return dataService.loadArea();
+            load: function(dataService, $stateParams) {
+                return dataService.loadAreaByName($stateParams.name);
             }
         }
     })

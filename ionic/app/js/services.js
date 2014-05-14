@@ -2,15 +2,16 @@ angular.module('whoApp.services', [])
     .factory('dataService', function($q, $http) {
         var picStack = ["James_King.jpg", "Julie_Taylor.jpg", "Eugene_Lee.jpg", "John_Williams.jpg", "Ray_Moore.jpg", "Paul_Jones.jpg", "Paula_Gates.jpg", "Lisa_Wong.jpg", "Gary_Donovan.jpg", "Kathleen_Byrne.jpg", "Amy_Jones.jpg", "Steven_Wells.jpg"];
         return {
+            areaDict: {},
+            projectDict: {},
+            functionDict: {},
             loadWandous: function() {
                 var deferred = $q.defer();
                 if (_.isEmpty(this.wandouList)) {
                     var _self = this;
-                    $http.get('data/wandous.json').then(function(resp) {
+                    $http.get('/api/v1/list/person').then(function(resp) {
                         _self.wandouList = resp.data;
-                        _.each(_self.wandouList, function(item) {
-                            item.pic = _self.getPic();
-                        });
+                        console.log(resp.data);
                         deferred.resolve();
                     });
                 } else {
@@ -35,7 +36,7 @@ angular.module('whoApp.services', [])
                 var deferred = $q.defer();
                 if (_.isEmpty(this.areaList)) {
                     var _self = this;
-                    $http.get('data/areas.json').then(function(resp) {
+                    $http.get('/api/v1/list/area').then(function(resp) {
                         _areaList = resp.data;
                         _.each(_areaList, function(area) {
                             area.members = _.map(area.members, function(name) {
@@ -53,11 +54,24 @@ angular.module('whoApp.services', [])
                 }
                 return deferred.promise;
             },
+            loadAreaByName: function(name) {
+                var deferred = $q.defer();
+                if (!this.areaDict[name]) {
+                    var _self = this;
+                    $http.get('/api/v1/area/' + name).then(function(resp) {
+                        _self.areaDict[name] = resp.data;
+                        deferred.resolve();
+                    });
+                } else {
+                    deferred.resolve();
+                }
+                return deferred.promise;
+            },
             loadProduct: function() {
                 var deferred = $q.defer();
                 if (_.isEmpty(this.productList)) {
                     var _self = this;
-                    $http.get('data/products.json').then(function(resp) {
+                    $http.get('/api/v1/list/product').then(function(resp) {
                         _self.productList = resp.data;
                         deferred.resolve();
                     });

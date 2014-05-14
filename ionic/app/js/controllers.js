@@ -66,9 +66,10 @@ angular.module('whoApp.controllers', [])
 .controller('areaCtrl', function($scope, $stateParams, dataService, $timeout, $rootScope, $timeout, $ionicLoading) {
     $scope.hideBackButton = false;
     $scope.hideNavBar = false;
-    $scope.areaInfo = _.find(dataService.areaList, function(areaInfo) {
-        return areaInfo.name === $stateParams.name;
-    });
+    $scope.areaInfo = dataService.areaDict[$stateParams.name];
+    // $scope.areaInfo = _.find(dataService.areaList, function(areaInfo) {
+    //     return areaInfo.name === $stateParams.name;
+    // });
     $ionicLoading.hide();
 })
 
