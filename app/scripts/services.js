@@ -44,7 +44,6 @@ angular.module('whoApp.services', [])
                             _self.productList = results[1].data;
                             _self.personList = results[2].data;
                             _self.functionList = results[3].data;
-                            // _self.personDict = transList2Dict(_self.personList, 'id');
                             return;
                             // get all data and then json it!
                             window.productList = _self.productList;
@@ -140,7 +139,6 @@ angular.module('whoApp.services', [])
                         $location.url('/login');
                     }
                     return $q.reject(response);
-                    return;
                     $alert.add({
                         type: 'danger',
                         msg: 'error-' + response.status + ': ' +
@@ -157,17 +155,6 @@ angular.module('whoApp.services', [])
                     }
                     return config;
                 }
-                // check cofig,method == post,
-                // then alert.success to notice
-                // response: function(response) {
-                //     if (response.config.method === 'POST') {
-                //         $alert.add({
-                //             type: 'success',
-                //             msg: '操作成功'
-                //         });
-                //     }
-                //     return response;
-                // }
             };
         }
     ])

@@ -14,7 +14,6 @@ angular.module('whoApp.controllers', ['whoApp.services'])
                 } else {
                     $scope.errorMsg = '请先填写相关信息';
                 }
-
             };
         }
     ])
@@ -31,9 +30,6 @@ angular.module('whoApp.controllers', ['whoApp.services'])
     ])
     .controller('wandouCtrl', ['$scope', '$rootScope', '$timeout', '$routeParams', 'dataService', '$configData',
         function($scope, $rootScope, $timeout, $routeParams, dataService, $configData) {
-            // $('body').animate({
-            //     scrollTop: 120
-            // }, 800);
 
             $scope.xingzuoList = $configData.xingzuoList;
             $scope.provinceList = $configData.provinceList;

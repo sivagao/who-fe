@@ -8,31 +8,15 @@ var app = angular.module('whoApp', [
     'ngTouch',
     'ui.select2',
     'ngDisqus',
-    // whoApp
     'whoApp.directives',
     'whoApp.controllers',
     'whoApp.filters',
     'imageupload'
 ]);
-//     'fx.animations'
-// development
-// app.constant('ServerUrl', '//localhost:3000');
-// app.constant('ApiUrl', '//localhost:3000/api/1');
-
-// production
-// app.constant('ServerUrl', '/');
-// app.constant('ApiUrl', '/api/1');
 
 app.config(function($routeProvider, $httpProvider, $locationProvider) {
 
-    // $httpProvider.interceptors.push('whoHttpInterceptor');
-
-    // Add `withCredentials` header to requests. (CORS requirement)
     $httpProvider.defaults.withCredentials = true;
-
-    // Enable HTML5 mode. (Remove the `#` from Url)
-    // $locationProvider.html5Mode(true);
-    // $locationProvider.hashPrefix('!');
     $locationProvider.html5Mode(false).hashPrefix("!");
 
     // Routing.
@@ -115,7 +99,6 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
         }).then(function(resp) {
             $rootScope.currentUser = resp.data;
         }, function() {});
-        // run some code to do your animations
     });
     $rootScope.$on('$routeChangeStart', function() {
         $window.scrollTo(0, 0);
