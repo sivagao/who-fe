@@ -7,6 +7,7 @@ var app = angular.module('whoApp', [
     'ngAnimate',
     'ngTouch',
     'ui.select2',
+    'ngDisqus',
     // whoApp
     'whoApp.directives',
     'whoApp.controllers',
@@ -31,6 +32,8 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
 
     // Enable HTML5 mode. (Remove the `#` from Url)
     // $locationProvider.html5Mode(true);
+    // $locationProvider.hashPrefix('!');
+    $locationProvider.html5Mode(false).hashPrefix("!");
 
     // Routing.
     $routeProvider
@@ -105,7 +108,7 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
             redirectTo: '/',
             requireAuthentication: false
         });
-}).run(function($rootScope, $location, $http) {
+}).run(function($rootScope, $location, $http, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
         $http.get('/api/v1/current_user', {
             cache: true
@@ -114,4 +117,8 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
         }, function() {});
         // run some code to do your animations
     });
+    $rootScope.$on('$routeChangeStart', function() {
+        $window.scrollTo(0, 0);
+    });
+    window.disqus_shortname = 'wandoujiawho';
 });

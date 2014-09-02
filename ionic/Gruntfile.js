@@ -82,7 +82,7 @@ module.exports = function(grunt) {
                     host: 'who.wandoulabs.com',
                     changeOrigin: true,
                     headers: {
-                        cookie: 'user="eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1398245626|1c68c3b6e4d397dd4b0d630993efe029e6aeab02"',
+                        cookie: 'user="eyJlbWFpbCI6ICJnYW9oYWlsYW5nQHdhbmRvdWppYS5jb20ifQ==|1405578942|68ddc8a8e1767e14bba17dab2460e4679ce98f7e"; _ga=GA1.2.1861655578.1405295643',
                         host: 'who.wandoulabs.com'
                     }
                 }]

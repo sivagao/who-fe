@@ -1,10 +1,6 @@
 @import "uikit/css/uikit";
 @import "compass";
 
-// Font Awesome
-// $fa-font-path: "/components/font-awesome/fonts/";
-// @import "font-awesome/scss/font-awesome";
-
 $bodyTextColor: #333;
 $subTextColor: #aaa;
 $linkTextColor: #3baa24;
@@ -209,7 +205,6 @@ body{
             border-radius: 15px;
             width: 100px;
             height: 100px;
-            max-width: 20%;
         }
         li a .block-color .who-placehold-item-title{
             line-height: 20px;
@@ -499,10 +494,10 @@ text-align: center;
 }
 .ng-animate-fadedown-noleave {
     &.ng-enter {
-        -webkit-animation: fadeDownEnter .1s linear; /* Safari 4+ */
-        -moz-animation:    fadeDownEnter .1s linear; /* Fx 5+ */
-        -o-animation:      fadeDownEnter .1s linear; /* Opera 12+ */
-        animation:         fadeDownEnter .1s linear; /* IE 10+ */
+        -webkit-animation: fadeDownEnter .3s linear; /* Safari 4+ */
+        -moz-animation:    fadeDownEnter .3s linear; /* Fx 5+ */
+        -o-animation:      fadeDownEnter .3s linear; /* Opera 12+ */
+        animation:         fadeDownEnter .3s linear; /* IE 10+ */
     }
 }
 

@@ -1,5 +1,11 @@
 # Who - 找豌豆
 
+好久没弄， ionic的build的脚本都忘记了，汗..
+
+- [ ] 添加ionic build 的 guide
+- [ ] 替换掉 ionic 之前的mock json
+- [ ] 加上manifest html5, appcache for better local & offline run
+
 ## Features:
 - 搜索
 - 编辑

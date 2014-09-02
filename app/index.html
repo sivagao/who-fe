@@ -12,13 +12,25 @@
 
     <link rel="stylesheet" href="http://s.wdjimg.com/account/stylesheets/6f594a05.style.css">
 
-    <!-- build:css(.tmp) /styles/index.css -->
+    <!-- build:css /styles/module.css -->
     <link rel="stylesheet" href="/components/select2/select2.css">
+    <!-- endbuild -->
+    <!-- build:css(.tmp) /styles/index.css -->
     <link rel="stylesheet" href="/styles/main.css">
     <!-- endbuild -->
 </head>
 
-<body ng-clock>
+<body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-15790641-52', 'wandoulabs.com');
+      ga('send', 'pageview');
+
+    </script>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -40,29 +52,29 @@
                             ng-model="navbarQuery"
                             ng-keydown="keydownHandler($event)"
                             id="search" type="text"
-                            placeholder="通过名字，项目，职位找豌豆...">
+                            placeholder="通过名字，项目，拼音找豌豆...">
                         <i class="uk-icon-spinner uk-icon-spin" ng-show="isShowSearchIcon"></i>
                     </form>
                 </div>
                 <!-- <div class="who-navbar-content home-navbar-export">
                     <button class="uk-button"><i class="uk-icon-download"></i>导出所有豌豆通讯录.csv</button>
                 </div> -->
-                <a class="who-navbar-content navbar-avatar" ng-href="/#/wandou/{{currentUser.id}}">
+                <a class="who-navbar-content navbar-avatar" ng-href="/#!wandou/{{currentUser.id}}">
                     <img ng-src="{{currentUser.img}}" alt="{{currentUser.name}}">
                     <span>{{currentUser.name}}</span>
                 </a>
             </div>
         </nav>
         <!-- <div class="who-container" ng-view></div> -->
-        <div class="who-container" autoscroll ng-view></div>
+        <div class="who-container ng-animate-fadedown-noleave" ng-view ng-clock></div>
     </div>
 
     <footer>
-        © 2014 Wandou Who - Contributed by <a href="/#/wandou/pengcheng">@pengcheng </a>  ·
-        <a href="/#/wandou/fuyingying">@fuyingying </a>  ·
-        <a href="/#/wandou/fengjie">@fengjie </a>  ·
-        Developed by <a href="/#/wandou/zhida">@zhida </a>  ·
-        <a href="/#/wandou/gaohailang">@gaohailang </a>
+        © 2014 Wandou Who - Contributed by <a href="/#!wandou/pengcheng">@pengcheng </a>  ·
+        <a href="/#!wandou/fuyingying">@fuyingying </a>  ·
+        <a href="/#!wandou/fengjie">@fengjie </a>  ·
+        Developed by <a href="/#!wandou/zhida">@zhida </a>  ·
+        <a href="/#!wandou/gaohailang">@gaohailang </a>
         <br>
     </footer>
 
@@ -81,6 +93,7 @@
     <script src="/components/angular-route/angular-route.js"></script>
     <script src="/components/angular-animate/angular-animate.js"></script>
     <script src="/components/angular-touch/angular-touch.js"></script>
+    <script src="/components/angular-disqus/angular-disqus.js"></script>
     <!-- endbuild -->
 
     <!-- build:js /scripts/app.js -->
