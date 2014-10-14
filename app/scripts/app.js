@@ -16,7 +16,7 @@ var app = angular.module('whoApp', [
 
 app.config(function($routeProvider, $httpProvider, $locationProvider) {
 
-    $httpProvider.defaults.withCredentials = true;
+    // $httpProvider.defaults.withCredentials = true;
     $locationProvider.html5Mode(false).hashPrefix("!");
 
     // Routing.
@@ -94,11 +94,20 @@ app.config(function($routeProvider, $httpProvider, $locationProvider) {
         });
 }).run(function($rootScope, $location, $http, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
-        $http.get('/api/v1/current_user', {
-            cache: true
+
+        $http.jsonp('http://sso.wandoulabs.com/getUserInfo/?jsonp=JSON_CALLBACK', {
+            cache: false
         }).then(function(resp) {
-            $rootScope.currentUser = resp.data;
-        }, function() {});
+            if (resp.data.code == 200) {
+                $rootScope.currentUser = {
+                    'name': resp.data.result.name,
+                    'id': resp.data.result.id,
+                    'img': resp.data.result.img
+                };
+            } else {
+                $window.location.href = 'http://sso.wandoulabs.com/?redirect=' + $window.location.href;
+            }
+        }, function(resp) {});
     });
     $rootScope.$on('$routeChangeStart', function() {
         $window.scrollTo(0, 0);

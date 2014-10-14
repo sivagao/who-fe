@@ -51,7 +51,7 @@ angular.module('whoApp.controllers', ['whoApp.services'])
                     formData.append("file", $scope.imageUpload.file);
 
                     var request = new XMLHttpRequest();
-                    request.open("POST", "/api/v1/update");
+                    request.open("POST", "/api/v1/update/");
                     request.send(formData);
                 }
             });
@@ -61,7 +61,7 @@ angular.module('whoApp.controllers', ['whoApp.services'])
         function($scope, $rootScope, $timeout, $http, $routeParams, $filter) {
 
             $http.get('/api/v1/area/' + $routeParams.name, {
-                cache: true
+                cache: false
             }).then(function(resp) {
                 _.each(resp.data.members, function(item) {
                     item.img = $filter('checkImg2')(item.img);

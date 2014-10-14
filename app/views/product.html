@@ -16,7 +16,7 @@
         <p>{{productInfo.mail}}</p>
 
         <div class="who-columns-2">
-            <div ng-if="productInfo.pm != 'n/a'">
+            <div ng-if="productInfo.pm != undefined">
                 <h2>
                     Product Manager
                 </h2>
@@ -30,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <div ng-if="productInfo.tl != 'n/a'">
+            <div ng-if="productInfo.tl != undefined">
                 <h2>
                     Tech Lead
                 </h2>

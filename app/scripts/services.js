@@ -18,7 +18,7 @@ angular.module('whoApp.services', [])
                     });
                 },
                 updateWandou: function(wandou) {
-                    return $http.post('/api/v1/person/' + wandou.id, wandou);
+                    return $http.post('/api/v1/person/' + wandou.id + '/', wandou);
                 },
                 loadPerson: function() {
                     if (_.isEmpty(this.personList)) {
@@ -48,7 +48,7 @@ angular.module('whoApp.services', [])
                             // get all data and then json it!
                             window.productList = _self.productList;
                             $q.all(_.map(_self.areaList, function(area) {
-                                return $http.get('/api/v1/area/' + area.name);
+                                return $http.get('/api/v1/area/' + area.id);
                             })).then(function(results) {
                                 window._areaDetailList = _.pluck(results, 'data');
                                 window._wandouNameList = _.uniq(_.flatten(_.pluck(_areaDetailList, 'members')));
@@ -72,12 +72,12 @@ angular.module('whoApp.services', [])
                         var _self = this,
                             _wandou;
                         return $http.get('/api/v1/person/' + name, {
-                            cache: true
+                            cache: false
                         }).then(function(resp) {
                             _self.personDict[name] = resp.data;
                             return;
                             return $http.get('/api/v1/area/' + resp.data.PA, {
-                                cache: true
+                                cache: false
                             });
                         }, function() {});
                     }
@@ -86,7 +86,7 @@ angular.module('whoApp.services', [])
                     if (_.isEmpty(this.productDict[name])) {
                         var _self = this;
                         return $http.get('/api/v1/product/' + name, {
-                            cache: true
+                            cache: false
                         }).then(function(resp) {
                             _self.productDict[name] = resp.data;
                         }, function() {});
@@ -96,7 +96,7 @@ angular.module('whoApp.services', [])
                     if (_.isEmpty(this.functionDict[name])) {
                         var _self = this;
                         return $http.get('/api/v1/function/' + name, {
-                            cache: true
+                            cache: false
                         }).then(function(resp) {
                             _self.functionDict[name] = resp.data;
                         }, function() {});
@@ -131,12 +131,13 @@ angular.module('whoApp.services', [])
             return {}
         }
     ])
-    .factory('whoHttpInterceptor', ['$q', '$alert', '$location', '$rootScope',
-        function($q, $alert, $location, $rootScope) {
+    .factory('whoHttpInterceptor', ['$q', '$alert', '$location', '$rootScope', '$window',
+        function($q, $alert, $location, $rootScope, $window) {
             return {
                 responseError: function(response) {
                     if (response.status === 403) {
-                        $location.url('/login');
+                        $window.location.href = 'http://sso.wandoulabs.com/?redirect=' + $window.location.href;
+                        return;
                     }
                     return $q.reject(response);
                     $alert.add({

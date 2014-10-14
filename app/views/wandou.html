@@ -56,6 +56,8 @@
                 <dd>{{wandouInfo.edate}}</dd>
             </dl>
             <dl class="uk-description-list uk-description-list-horizontal">
+                <dt>座位</dt>
+                <dd>{{wandouInfo.location || '还没有填呀'}}</dd>
                 <dt>籍贯</dt>
                 <dd>{{wandouInfo.hometown}}</dd>
                 <dt>毕业学校</dt>
@@ -137,6 +139,12 @@
                 </div>
             </div> -->
             <div class="uk-form-row">
+                <label class="uk-form-label" for="form-h-it">座位</label>
+                <div class="uk-form-controls">
+                    <input type="text" ng-model="wandouInfo.location" name="location">
+                </div>
+            </div>
+            <div class="uk-form-row">
                 <label class="uk-form-label" for="form-h-it">电话</label>
                 <div class="uk-form-controls">
                     <input type="text" ng-model="wandouInfo.phone" name="phone">
@@ -191,7 +199,7 @@
         </form>
     </div>
 
-    <div id="disqus_thread"></div>
+<!--     <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'wandoujiawho'; // required: replace example with your forum shortname
@@ -209,5 +217,5 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
+</div> -->
 
